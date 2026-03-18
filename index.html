@@ -108,6 +108,49 @@
 </head>
 <body class="text-slate-800">
 
+    <!-- Cover Page -->
+    <div id="coverPage" class="fixed inset-0 z-[200] bg-slate-900 flex flex-col items-center justify-center p-6 text-white transition-opacity duration-500">
+        <div class="absolute inset-0 opacity-20 pointer-events-none overflow-hidden">
+            <div class="absolute -top-24 -left-24 w-96 h-96 bg-blue-600 rounded-full blur-[120px]"></div>
+            <div class="absolute -bottom-24 -right-24 w-96 h-96 bg-emerald-600 rounded-full blur-[120px]"></div>
+        </div>
+        
+        <div class="relative z-10 flex flex-col items-center">
+            <div class="mb-4 p-4 bg-white/10 rounded-3xl backdrop-blur-md border border-white/20 shadow-2xl">
+                <i data-lucide="book-open-check" class="w-12 h-12 text-blue-400"></i>
+            </div>
+            <h1 class="text-4xl md:text-6xl font-black mb-12 tracking-tighter text-center">
+                英検<span class="text-blue-500">単語</span>学習
+            </h1>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 w-full max-w-2xl">
+                <button onclick="loadLevel('5kyuu')" class="p-6 bg-white/5 hover:bg-white/10 border border-white/10 rounded-2xl transition-all active:scale-95 flex flex-col items-center gap-2 group hover:border-blue-500/50">
+                    <span class="text-3xl font-black group-hover:text-blue-400">5級</span>
+                    <span class="text-[10px] opacity-50 uppercase font-bold tracking-widest">Grade 5</span>
+                </button>
+                <button onclick="loadLevel('4kyuu')" class="p-6 bg-white/5 hover:bg-white/10 border border-white/10 rounded-2xl transition-all active:scale-95 flex flex-col items-center gap-2 group hover:border-blue-500/50">
+                    <span class="text-3xl font-black group-hover:text-blue-400">4級</span>
+                    <span class="text-[10px] opacity-50 uppercase font-bold tracking-widest">Grade 4</span>
+                </button>
+                <button onclick="loadLevel('3kyuu')" class="p-6 bg-white/5 hover:bg-white/10 border border-white/10 rounded-2xl transition-all active:scale-95 flex flex-col items-center gap-2 group hover:border-blue-500/50">
+                    <span class="text-3xl font-black group-hover:text-blue-400">3級</span>
+                    <span class="text-[10px] opacity-50 uppercase font-bold tracking-widest">Grade 3</span>
+                </button>
+                <button onclick="loadLevel('j2kyuu')" class="p-6 bg-white/5 hover:bg-white/10 border border-white/10 rounded-2xl transition-all active:scale-95 flex flex-col items-center gap-2 group hover:border-blue-500/50">
+                    <span class="text-3xl font-black group-hover:text-blue-400">準2級</span>
+                    <span class="text-[10px] opacity-50 uppercase font-bold tracking-widest">Pre-2</span>
+                </button>
+            </div>
+            
+            <p class="mt-12 text-slate-400 text-xs font-bold tracking-widest uppercase opacity-50">Select your level to start learning</p>
+        </div>
+        
+        <button onclick="loadLevel('all')" class="fixed bottom-8 right-8 p-4 bg-blue-600 hover:bg-blue-500 text-white rounded-full shadow-2xl transition-all active:scale-90 flex items-center justify-center group z-20" title="全データを読み込む">
+            <i data-lucide="database" class="w-6 h-6"></i>
+            <span class="max-w-0 overflow-hidden group-hover:max-w-xs transition-all duration-300 ease-in-out whitespace-nowrap ml-0 group-hover:ml-2 font-bold text-sm">全データ</span>
+        </button>
+    </div>
+
     <div class="h-screen flex flex-col overflow-hidden">
         <!-- Header -->
         <header class="bg-white border-b border-slate-200 px-4 py-2 flex items-center justify-between shadow-sm z-50 shrink-0 h-14">
@@ -158,26 +201,30 @@
                         </button>
                     </div>
 
-                    <div class="flex items-center gap-2 px-1">
+                    <div class="flex items-center gap-1.5 px-0.5">
                         <button id="ttsPlayListBtn" class="h-9 w-9 flex items-center justify-center bg-white border border-slate-200 rounded-lg text-slate-600 hover:bg-blue-600 hover:text-white transition-all shadow-sm shrink-0" title="Listen all from selection">
-                            <i data-lucide="volume-2" class="w-5 h-5"></i>
+                            <i data-lucide="volume-2" class="w-4 h-4"></i>
                         </button>
-                        <div class="flex items-center gap-1.5 flex-1 justify-end">
-                            <select id="filterMark" class="h-9 bg-white border border-slate-200 text-slate-600 text-[10px] font-bold rounded-lg px-2 py-1 outline-none shadow-sm cursor-pointer hover:border-blue-300">
-                                <option value="all">全マーク</option>
-                                <option value="red">🚩 復習</option>
-                                <option value="yellow">⭐ 注意</option>
-                                <option value="green">✅ 習得</option>
-                                <option value="none">未マーク</option>
-                            </select>
-                            <select id="sortOrder" class="h-9 bg-white border border-slate-200 text-slate-600 text-[10px] font-bold rounded-lg px-2 py-1 outline-none shadow-sm cursor-pointer hover:border-blue-300">
-                                <option value="word_asc">A-Z 順</option>
-                                <option value="word_desc">Z-A 順</option>
-                                <option value="random">🎲 乱順</option>
-                                <option value="source_asc">Src 順</option>
-                                <option value="id_asc">ID 順</option>
-                            </select>
-                        </div>
+                        <button id="searchModalBtn" class="h-9 w-9 flex items-center justify-center bg-white border border-slate-200 rounded-lg text-slate-600 hover:bg-emerald-600 hover:text-white transition-all shadow-sm shrink-0" title="Advanced Search">
+                            <i data-lucide="search" class="w-4 h-4"></i>
+                        </button>
+                        <select id="filterGrade" class="h-9 flex-1 bg-white border border-slate-200 text-slate-600 text-[10px] font-bold rounded-lg px-1 py-1 outline-none shadow-sm cursor-pointer hover:border-blue-300 min-w-0">
+                            <option value="all">Level</option>
+                        </select>
+                        <select id="filterMark" class="h-9 flex-1 bg-white border border-slate-200 text-slate-600 text-[10px] font-bold rounded-lg px-1 py-1 outline-none shadow-sm cursor-pointer hover:border-blue-300 min-w-0">
+                            <option value="all">Mark</option>
+                            <option value="red">🚩 復習</option>
+                            <option value="yellow">⭐ 注意</option>
+                            <option value="green">✅ 習得</option>
+                            <option value="none">未</option>
+                        </select>
+                        <select id="sortOrder" class="h-9 flex-1 bg-white border border-slate-200 text-slate-600 text-[10px] font-bold rounded-lg px-1 py-1 outline-none shadow-sm cursor-pointer hover:border-blue-300 min-w-0">
+                            <option value="id_asc">ID</option>
+                            <option value="word_asc">A-Z</option>
+                            <option value="word_desc">Z-A</option>
+                            <option value="random">🎲</option>
+                            <option value="source_asc">Src</option>
+                        </select>
                     </div>
 
                     <div class="relative group h-9 flex items-center">
@@ -188,28 +235,15 @@
                         <button id="azRight" class="absolute right-0 top-0 bottom-0 w-6 flex items-center justify-center bg-white/80 text-slate-400 hover:text-blue-600 z-10 rounded-r-lg cursor-pointer"><i data-lucide="chevron-right" class="w-3 h-3"></i></button>
                     </div>
 
-                    <div id="extraSearchDict" class="space-y-2">
-                        <div class="grid grid-cols-2 gap-2">
-                            <div class="relative">
-                                <i data-lucide="languages" class="absolute left-3 top-1/2 -translate-y-1/2 text-emerald-500 w-3.5 h-3.5"></i>
-                                <input type="text" id="searchMeaning" placeholder="意味..." class="w-full pl-9 pr-2 py-2 bg-white border border-slate-200 rounded-xl text-sm outline-none focus:ring-2 focus:ring-emerald-500/10 font-medium shadow-sm">
-                            </div>
-                            <div class="relative">
-                                <i data-lucide="tag" class="absolute left-3 top-1/2 -translate-y-1/2 text-purple-500 w-3.5 h-3.5"></i>
-                                <input type="text" id="searchTags" placeholder="#Tags..." class="w-full pl-9 pr-2 py-2 bg-white border border-slate-200 rounded-xl text-sm outline-none focus:ring-2 focus:ring-purple-500/10 font-medium shadow-sm">
-                            </div>
+                    <!-- Jump Buttons -->
+                    <div id="jumpButtonsContainer" class="px-1 py-1">
+                        <div class="flex items-center justify-between gap-1">
+                            <button id="jumpPrev100" class="flex-1 h-7 bg-white border border-slate-200 rounded text-[10px] font-bold text-slate-500 hover:bg-slate-50 active:scale-95 transition-all">-100</button>
+                            <button id="jumpPrev10" class="flex-1 h-7 bg-white border border-slate-200 rounded text-[10px] font-bold text-slate-500 hover:bg-slate-50 active:scale-95 transition-all">-10</button>
+                            <div id="jumpCurrentPos" class="px-2 text-[10px] font-black text-blue-600 min-w-[40px] text-center">1</div>
+                            <button id="jumpNext10" class="flex-1 h-7 bg-white border border-slate-200 rounded text-[10px] font-bold text-slate-500 hover:bg-slate-50 active:scale-95 transition-all">+10</button>
+                            <button id="jumpNext100" class="flex-1 h-7 bg-white border border-slate-200 rounded text-[10px] font-bold text-slate-500 hover:bg-slate-50 active:scale-95 transition-all">+100</button>
                         </div>
-                        <div class="relative">
-                            <i data-lucide="search" class="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 w-3.5 h-3.5"></i>
-                            <input type="text" id="searchKeyword" placeholder="KW(全体)..." class="w-full pl-9 pr-2 py-2 bg-white border border-slate-200 rounded-xl text-sm outline-none focus:ring-2 focus:ring-slate-500/10 font-medium shadow-sm">
-                        </div>
-                    </div>
-                    
-                    <div class="grid grid-cols-4 gap-1.5">
-                        <select id="filterPos" class="pl-1.5 pr-1 py-1.5 bg-white border border-slate-200 rounded-lg text-[10px] font-bold outline-none shadow-sm"><option value="all">品詞</option></select>
-                        <select id="filterGrade" class="pl-1.5 pr-1 py-1.5 bg-white border border-slate-200 rounded-lg text-[10px] font-bold outline-none shadow-sm"><option value="all">Level</option></select>
-                        <select id="filterSource" class="pl-1.5 pr-1 py-1.5 bg-white border border-slate-200 rounded-lg text-[10px] font-bold outline-none shadow-sm"><option value="all">Src</option></select>
-                        <select id="filterTags" class="pl-1.5 pr-1 py-1.5 bg-white border border-slate-200 rounded-lg text-[10px] font-bold outline-none shadow-sm"><option value="all">Tags</option></select>
                     </div>
                 </div>
                 
@@ -227,29 +261,52 @@
                 </div>
 
                 <div id="editorForm" class="hidden p-4 md:p-8 max-w-4xl mx-auto w-full space-y-6 pb-32">
-                    <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm space-y-4 relative">
-                        <div class="flex items-center justify-between">
+                    <div class="bg-white p-3 rounded-2xl border border-slate-200 shadow-sm space-y-1 relative">
+                        <!-- Compact Header -->
+                        <div class="flex items-center justify-between border-b border-slate-50 pb-0.5 mb-1">
                             <div class="flex gap-2 items-center">
-                                <span id="displayDataSource" class="id-badge">Source</span>
-                                <span id="displaySubID" class="id-badge">Sub-ID</span>
-                                <span id="displayLevel" class="hidden level-badge"></span>
+                                <span id="displaySubID" class="id-badge">ID</span>
                             </div>
+                            <button id="infoBtn" class="p-1 text-slate-400 hover:text-blue-600 transition-colors" title="Info">
+                                <i data-lucide="info" class="w-4 h-4"></i>
+                            </button>
                         </div>
-                        <div class="grid grid-cols-1 gap-1">
-                            <div class="flex items-start justify-between gap-4">
-                                <div id="viewWord" class="flex-1 px-2 py-1 font-black text-slate-900"></div>
-                                <button id="ttsPlaySingleBtn" class="mt-2 p-2 bg-blue-50 text-blue-600 hover:bg-blue-600 hover:text-white rounded-xl transition-all shadow-sm shrink-0" title="Speak word">
-                                    <i data-lucide="volume-2" class="w-6 h-6"></i>
+
+                        <div class="flex items-start justify-between gap-2">
+                            <div class="flex-1">
+                                <div id="viewWord" class="font-black text-slate-900 text-xl leading-tight"></div>
+                                <div id="pronunciationArea" class="mt-0"></div>
+                            </div>
+                            <div class="flex flex-row gap-1.5 items-center">
+                                <button id="ttsPlaySingleBtn" class="p-2 bg-blue-50 text-blue-600 hover:bg-blue-600 hover:text-white rounded-xl transition-all shadow-sm shrink-0" title="Speak word">
+                                    <i data-lucide="volume-2" class="w-4 h-4"></i>
+                                </button>
+                                <button id="ttsPlayListDetailBtn" class="p-2 bg-slate-50 text-slate-400 hover:bg-red-600 hover:text-white rounded-xl transition-all shadow-sm shrink-0" title="Listen all from here">
+                                    <i data-lucide="play-circle" class="w-4 h-4"></i>
                                 </button>
                             </div>
-                            <div id="pronunciationArea" class="flex flex-col gap-1 px-2 mt-1"></div>
                         </div>
-                        <div id="metadataDisplay" class="flex wrap gap-2 pt-2 border-t border-slate-50"></div>
                     </div>
                     <div id="sensesContainer" class="space-y-6"></div>
                     <div id="examplesSection" class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm space-y-4">
                         <h3 class="text-[10px] font-black text-purple-600 uppercase tracking-widest flex items-center gap-1"><i data-lucide="message-circle" class="w-3.5 h-3.5"></i> SENTENCE</h3>
                         <div id="examplesContainer" class="space-y-3"></div>
+                    </div>
+
+                    <!-- Bottom Navigation -->
+                    <div class="flex justify-center items-center gap-4 md:gap-8 pt-4">
+                        <button onclick="goBackToList()" class="flex flex-col items-center gap-1 p-3 bg-white border border-slate-200 text-slate-400 hover:text-blue-600 rounded-2xl shadow-md transition-all active:scale-95">
+                            <i data-lucide="list" class="w-5 h-5"></i>
+                            <span class="text-[10px] font-bold uppercase">List</span>
+                        </button>
+                        <div class="flex gap-4 md:gap-8">
+                            <button onclick="navigateDetails(-1)" class="p-4 bg-white border border-slate-200 text-slate-400 hover:text-blue-600 rounded-full shadow-md transition-all active:scale-90">
+                                <i data-lucide="arrow-left" class="w-6 h-6"></i>
+                            </button>
+                            <button onclick="navigateDetails(1)" class="p-4 bg-white border border-slate-200 text-slate-400 hover:text-blue-600 rounded-full shadow-md transition-all active:scale-90">
+                                <i data-lucide="arrow-right" class="w-6 h-6"></i>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -274,6 +331,87 @@
         </div>
     </div>
 
+    <!-- Info Modal -->
+    <div id="infoModal" class="hidden fixed inset-0 z-[100] flex items-center justify-center p-4 modal-overlay">
+        <div class="stat-card w-full max-w-sm p-6 space-y-6 animate-in zoom-in duration-200">
+            <div class="flex justify-between items-center">
+                <h2 class="text-xl font-black text-slate-900 flex items-center gap-2">
+                    <i data-lucide="info" class="text-blue-500"></i> 概要情報
+                </h2>
+                <button onclick="toggleInfo()" class="p-2 hover:bg-slate-100 rounded-full transition-colors">
+                    <i data-lucide="x" class="w-5 h-5 text-slate-400"></i>
+                </button>
+            </div>
+            <div id="infoContent" class="space-y-4">
+                <div class="space-y-3">
+                    <div class="flex justify-between border-b border-slate-100 pb-2">
+                        <span class="text-xs font-bold text-slate-400 uppercase">Source</span>
+                        <span id="infoSource" class="text-sm font-black text-slate-700">---</span>
+                    </div>
+                    <div class="flex justify-between border-b border-slate-100 pb-2">
+                        <span class="text-xs font-bold text-slate-400 uppercase">ID</span>
+                        <span id="infoID" class="text-sm font-black text-slate-700">---</span>
+                    </div>
+                    <div class="flex justify-between border-b border-slate-100 pb-2">
+                        <span class="text-xs font-bold text-slate-400 uppercase">Level</span>
+                        <span id="infoLevel" class="text-sm font-black text-slate-700">---</span>
+                    </div>
+                    <div class="space-y-1">
+                        <span class="text-xs font-bold text-slate-400 uppercase">Tags</span>
+                        <div id="infoTags" class="flex flex-wrap gap-2 pt-1"></div>
+                    </div>
+                </div>
+            </div>
+            <button onclick="toggleInfo()" class="w-full py-3 bg-slate-900 text-white font-bold rounded-xl shadow-lg active:scale-95 transition-all">閉じる</button>
+        </div>
+    </div>
+
+    <!-- Search Modal -->
+    <div id="searchModal" class="hidden fixed inset-0 z-[100] flex items-center justify-center p-4 modal-overlay">
+        <div class="stat-card w-full max-w-sm p-6 space-y-6 animate-in zoom-in duration-200">
+            <div class="flex justify-between items-center">
+                <h2 class="text-xl font-black text-slate-900 flex items-center gap-2">
+                    <i data-lucide="search" class="text-emerald-500"></i> 詳細検索
+                </h2>
+                <button onclick="toggleSearch()" class="p-2 hover:bg-slate-100 rounded-full transition-colors">
+                    <i data-lucide="x" class="w-5 h-5 text-slate-400"></i>
+                </button>
+            </div>
+            
+            <div class="space-y-4">
+                <div class="relative">
+                    <i data-lucide="languages" class="absolute left-3 top-1/2 -translate-y-1/2 text-emerald-500 w-3.5 h-3.5"></i>
+                    <input type="text" id="searchMeaning" placeholder="意味..." class="w-full pl-9 pr-2 py-2 bg-white border border-slate-200 rounded-xl text-sm outline-none focus:ring-2 focus:ring-emerald-500/10 font-medium shadow-sm">
+                </div>
+                <div class="relative">
+                    <i data-lucide="tag" class="absolute left-3 top-1/2 -translate-y-1/2 text-purple-500 w-3.5 h-3.5"></i>
+                    <input type="text" id="searchTags" placeholder="#Tags..." class="w-full pl-9 pr-2 py-2 bg-white border border-slate-200 rounded-xl text-sm outline-none focus:ring-2 focus:ring-purple-500/10 font-medium shadow-sm">
+                </div>
+                <div class="relative">
+                    <i data-lucide="search" class="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 w-3.5 h-3.5"></i>
+                    <input type="text" id="searchKeyword" placeholder="KW(全体)..." class="w-full pl-9 pr-2 py-2 bg-white border border-slate-200 rounded-xl text-sm outline-none focus:ring-2 focus:ring-slate-500/10 font-medium shadow-sm">
+                </div>
+                
+                <div class="grid grid-cols-2 gap-2">
+                    <div class="space-y-1">
+                        <label class="text-[10px] font-bold text-slate-400 uppercase ml-1">品詞</label>
+                        <select id="filterPos" class="w-full px-2 py-2 bg-white border border-slate-200 rounded-lg text-xs font-bold outline-none shadow-sm"><option value="all">品詞</option></select>
+                    </div>
+                    <div class="space-y-1">
+                        <label class="text-[10px] font-bold text-slate-400 uppercase ml-1">Source</label>
+                        <select id="filterSource" class="w-full px-2 py-2 bg-white border border-slate-200 rounded-lg text-xs font-bold outline-none shadow-sm"><option value="all">Src</option></select>
+                    </div>
+                    <div class="space-y-1 col-span-2">
+                        <label class="text-[10px] font-bold text-slate-400 uppercase ml-1">Tags (Filter)</label>
+                        <select id="filterTags" class="w-full px-2 py-2 bg-white border border-slate-200 rounded-lg text-xs font-bold outline-none shadow-sm"><option value="all">Tags</option></select>
+                    </div>
+                </div>
+            </div>
+
+            <button onclick="toggleSearch()" class="w-full py-3 bg-emerald-600 text-white font-bold rounded-xl shadow-lg active:scale-95 transition-all">検索を適用</button>
+        </div>
+    </div>
+
     <script>
         let dictionaryData = [];
         let filteredIndices = [];
@@ -293,6 +431,13 @@
         let preferredVoice = null;
 
         const defaultDataFiles = ['wordlist/DB48-std.json', 'wordlist/DB48-phr.json', 'wordlist/DB48-mul.json'];
+        const eikenFiles = {
+            '5kyuu': ['wordlist/5kyuu.json'],
+            '4kyuu': ['wordlist/4kyuu.json'],
+            '3kyuu': ['wordlist/3kyuu.json'],
+            'j2kyuu': ['wordlist/j2kyuu.json'],
+            'all': ['wordlist/5kyuu.json', 'wordlist/4kyuu.json', 'wordlist/3kyuu.json', 'wordlist/j2kyuu.json', 'wordlist/DB48-std.json', 'wordlist/DB48-phr.json', 'wordlist/DB48-mul.json']
+        };
 
         const VISUAL_CONFIG = {
             'usage': { title: "Usage", color: "cyan", icon: "activity", label: "活用" },
@@ -343,18 +488,33 @@
             fileInput: document.getElementById('fileInput'),
             modeDictBtn: document.getElementById('modeDictBtn'),
             modeStudyBtn: document.getElementById('modeStudyBtn'),
-            extraSearchDict: document.getElementById('extraSearchDict'),
             ttsPlayListBtn: document.getElementById('ttsPlayListBtn'),
+            ttsPlayListDetailBtn: document.getElementById('ttsPlayListDetailBtn'),
             ttsPlaySingleBtn: document.getElementById('ttsPlaySingleBtn'),
-            listCounter: document.getElementById('listCounter')
+            listCounter: document.getElementById('listCounter'),
+            jumpPrev100: document.getElementById('jumpPrev100'),
+            jumpPrev10: document.getElementById('jumpPrev10'),
+            jumpNext10: document.getElementById('jumpNext10'),
+            jumpNext100: document.getElementById('jumpNext100'),
+            jumpCurrentPos: document.getElementById('jumpCurrentPos'),
+            infoModal: document.getElementById('infoModal'),
+            infoBtn: document.getElementById('infoBtn'),
+            infoSource: document.getElementById('infoSource'),
+            infoID: document.getElementById('infoID'),
+            infoLevel: document.getElementById('infoLevel'),
+            infoTags: document.getElementById('infoTags'),
+            searchModal: document.getElementById('searchModal'),
+            searchModalBtn: document.getElementById('searchModalBtn')
         };
 
         function init() {
             if (typeof lucide !== 'undefined') lucide.createIcons();
             initAlphaButtons();
-            loadInitialData();
             setupEventListeners();
             initTtsVoices();
+            
+            // Set default sort
+            els.sortOrder.value = 'id_asc';
         }
 
         function initTtsVoices() {
@@ -439,6 +599,30 @@
             if (typeof lucide !== 'undefined') lucide.createIcons();
         }
 
+        function toggleInfo() {
+            if (els.infoModal.classList.contains('hidden')) {
+                const item = dictionaryData[editingIndex];
+                if (!item) return;
+                els.infoSource.innerText = item.dataSource || '---';
+                els.infoID.innerText = item.subID || '---';
+                els.infoLevel.innerText = item.level || '---';
+                els.infoTags.innerHTML = (item.tags || []).map(t => `<span class="tag-badge">#${t}</span>`).join('') || '<span class="text-xs text-slate-400 italic">No tags</span>';
+                els.infoModal.classList.remove('hidden');
+            } else {
+                els.infoModal.classList.add('hidden');
+            }
+            if (typeof lucide !== 'undefined') lucide.createIcons();
+        }
+
+        function toggleSearch() {
+            if (els.searchModal.classList.contains('hidden')) {
+                els.searchModal.classList.remove('hidden');
+            } else {
+                els.searchModal.classList.add('hidden');
+            }
+            if (typeof lucide !== 'undefined') lucide.createIcons();
+        }
+
         function standardizeItem(item, sourceName) {
             if(!item) return null;
             const newItem = {
@@ -479,8 +663,16 @@
             return text.substring(0, 2).toUpperCase();
         }
 
-        async function loadInitialData() {
-            for (const filePath of defaultDataFiles) {
+        async function loadLevel(level) {
+            const files = eikenFiles[level] || defaultDataFiles;
+            dictionaryData = []; // Clear existing
+            
+            // Show loading state
+            const cover = document.getElementById('coverPage');
+            cover.style.opacity = '0.5';
+            cover.style.pointerEvents = 'none';
+
+            for (const filePath of files) {
                 try {
                     const res = await fetch(filePath);
                     if(res.ok) {
@@ -489,9 +681,18 @@
                         const norm = (Array.isArray(data) ? data : [data]).map(i => standardizeItem(i, source)).filter(i=>i);
                         dictionaryData = dictionaryData.concat(norm);
                     }
-                } catch(e) {}
+                } catch(e) {
+                    console.error(`Failed to load ${filePath}:`, e);
+                }
             }
+            
             onDataLoaded();
+            
+            // Hide cover page
+            cover.classList.add('opacity-0');
+            setTimeout(() => {
+                cover.classList.add('hidden');
+            }, 500);
         }
 
         function onDataLoaded() {
@@ -538,6 +739,24 @@
         function getPosColorClass(pos) {
             const colors = { '名': 'text-rose-600 bg-rose-50 border-rose-200', '動': 'text-emerald-600 bg-emerald-50 border-emerald-200', '形': 'text-blue-600 bg-blue-50 border-blue-200', '副': 'text-orange-600 bg-orange-50 border-orange-200', '前': 'text-purple-600 bg-purple-50 border-purple-200', '接': 'text-cyan-600 bg-cyan-50 border-cyan-200' };
             return colors[pos] || 'text-slate-600 bg-slate-50 border-slate-200';
+        }
+
+        let currentJumpIndex = 0;
+        function jumpList(offset) {
+            if (filteredIndices.length === 0) return;
+            currentJumpIndex = Math.max(0, Math.min(filteredIndices.length - 1, currentJumpIndex + offset));
+            const targetIdx = filteredIndices[currentJumpIndex];
+            const targetEl = document.getElementById(`result-item-${targetIdx}`);
+            if (targetEl) {
+                targetEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+            updateJumpDisplay();
+        }
+
+        function updateJumpDisplay() {
+            if (els.jumpCurrentPos) {
+                els.jumpCurrentPos.innerText = currentJumpIndex + 1;
+            }
         }
 
         function renderList() {
@@ -593,21 +812,28 @@
 
             filteredIndices = filtered.map(item => item.idx);
             els.listCounter.innerText = `${filteredIndices.length} items found`;
+
+            // Reset Jump Position
+            currentJumpIndex = 0;
+            updateJumpDisplay();
+
             const isStudy = currentMode === 'study';
             els.resultsList.innerHTML = filtered.map(item => {
                 const markClass = item.mark ? `mark-${item.mark}` : 'border-white';
                 return `
                 <div id="result-item-${item.idx}" onclick="openDetail(${item.idx})" class="p-3 bg-white rounded-xl border-2 cursor-pointer transition-all shadow-sm group ${item.idx === editingIndex ? 'active-selection ring-2 ring-blue-500/10' : markClass + ' hover:border-slate-200'}">
                     <div class="flex items-start justify-between">
-                        <span class="font-black text-slate-900 group-hover:text-blue-600 uppercase truncate flex-1 block">${item.word}</span>
+                        <span class="font-black text-slate-900 group-hover:text-blue-600 uppercase truncate flex-1 block">
+                            ${item.word}
+                            ${isStudy ? `<span class="block text-[9px] text-slate-400 font-bold mt-0.5">ID: ${item.subID || '-'}</span>` : ''}
+                        </span>
                         <div class="flex gap-4 ml-2 items-center flex-shrink-0">
                             ${isStudy ? `
                                 <div onclick="event.stopPropagation(); setMarking(${item.idx}, 'red')" class="marker-dot bg-red-400 ${item.mark==='red'?'active ring-red-200':''}"></div>
                                 <div onclick="event.stopPropagation(); setMarking(${item.idx}, 'yellow')" class="marker-dot bg-yellow-400 ${item.mark==='yellow'?'active ring-yellow-100':''}"></div>
                                 <div onclick="event.stopPropagation(); setMarking(${item.idx}, 'green')" class="marker-dot bg-green-400 ${item.mark==='green'?'active ring-green-100':''}"></div>
                             ` : `
-                                ${item.level ? `<span class="level-badge" title="${item.level}">${shortenText(item.level)}</span>` : ''}
-                                ${item.dataSource ? `<span class="id-badge" title="${item.dataSource}">${shortenText(item.dataSource)}</span>` : ''}
+                                ${item.subID ? `<span class="id-badge bg-slate-100 text-slate-500 border-slate-200" title="ID: ${item.subID}">${item.subID}</span>` : ''}
                             `}
                         </div>
                     </div>
@@ -635,17 +861,13 @@
             }
 
             els.viewWord.innerHTML = formatText(item.word);
-            els.displayDataSource.innerText = item.dataSource;
             els.displaySubID.innerText = item.subID;
-            els.displayLevel.innerText = item.level || "";
-            els.displayLevel.classList.toggle('hidden', !item.level);
-            els.metadataDisplay.innerHTML = (item.tags || []).map(t => `<span class="tag-badge">#${t}</span>`).join('');
             
             els.pronunciationArea.innerHTML = (item.pronunciation || []).map(p => `
-                <div class="flex items-center gap-2">
-                    ${p.pos ? `<span class="pron-pos">${p.pos}</span>` : ''}
-                    <span class="font-serif italic text-sm text-slate-500">${p.text}</span>
-                    ${(p.notes || []).map(n => `<span class="pron-note">${n}</span>`).join('')}
+                <div class="flex items-center gap-2 flex-wrap">
+                    ${p.pos ? `<span class="pron-pos text-[10px] font-bold text-slate-400 uppercase">${p.pos}</span>` : ''}
+                    <span class="font-serif italic text-base text-slate-600">${p.text}</span>
+                    ${(p.notes || []).map(n => `<span class="text-xs text-slate-400 font-bold">(${n})</span>`).join('')}
                 </div>`).join('');
 
             const rootSensesHtml = item.senses.map((s, si) => renderSenseCard(s, si)).join('');
@@ -751,7 +973,7 @@
                             <div class="flex items-center gap-2 flex-wrap">
                                 ${it.type ? `<span class="type-label-text font-black px-1 rounded ${it.type === '注意' ? 'label-caution' : 'label-normal'}">${it.type}</span>` : ''}
                                 ${it.label ? `<span class="type-label-text font-black text-${config.color}-600 border border-${config.color}-100 bg-${config.color}-50 px-1 rounded">${it.label}</span>` : ''}
-                                <span class="rel-word-text text-slate-800 ${isNote ? 'font-medium' : 'font-black'}">${formatText(it.content || "")}</span>
+                                <span class="rel-word-text text-slate-800 font-normal">${formatText(it.content || "")}</span>
                                 ${it.pronunciation?.[0] ? `<span class="text-[11px] font-serif italic text-slate-500">${it.pronunciation[0].text}</span>` : ''}
                             </div>
                             <div class="ml-10">
@@ -810,6 +1032,12 @@
             els.ttsPlayListBtn.innerHTML = '<i data-lucide="volume-2" class="w-5 h-5"></i>';
             els.ttsPlayListBtn.className = els.ttsPlayListBtn.className.replace('bg-red-600', 'bg-white').replace('text-white', 'text-slate-600');
             
+            if (els.ttsPlayListDetailBtn) {
+                els.ttsPlayListDetailBtn.innerHTML = '<i data-lucide="play-circle" class="w-6 h-6"></i>';
+                els.ttsPlayListDetailBtn.classList.remove('bg-red-600', 'text-white');
+                els.ttsPlayListDetailBtn.classList.add('bg-slate-50', 'text-slate-400');
+            }
+            
             document.querySelectorAll('.example-card').forEach(el => el.classList.remove('ring-2', 'ring-blue-500'));
             document.querySelectorAll('.ex-cont-btn').forEach(btn => {
                 btn.innerHTML = '<i data-lucide="play-circle" class="w-3.5 h-3.5"></i>';
@@ -827,6 +1055,12 @@
             
             els.ttsPlayListBtn.innerHTML = '<i data-lucide="square" class="w-5 h-5"></i>';
             els.ttsPlayListBtn.className = els.ttsPlayListBtn.className.replace('bg-white', 'bg-red-600').replace('text-slate-600', 'text-white');
+
+            if (els.ttsPlayListDetailBtn) {
+                els.ttsPlayListDetailBtn.innerHTML = '<i data-lucide="square" class="w-6 h-6"></i>';
+                els.ttsPlayListDetailBtn.classList.remove('bg-slate-50', 'text-slate-400');
+                els.ttsPlayListDetailBtn.classList.add('bg-red-600', 'text-white');
+            }
             lucide.createIcons();
             readNextInList();
         }
@@ -929,6 +1163,17 @@
             }
         }
         
+        function goBackToList() {
+            isMobileDetailView = false;
+            els.contentArea.classList.add('hidden');
+            els.sidebarArea.classList.remove('hidden');
+            els.mobileBackBtn.classList.add('hidden');
+            els.appTitle.classList.remove('hidden');
+            els.importBtn.classList.remove('hidden');
+            els.navButtons.classList.add('hidden');
+            stopTtsList();
+        }
+
         function setupEventListeners() {
             ['searchHeadword', 'searchMeaning', 'searchTags', 'searchKeyword', 'filterPos', 'filterTags', 'sortOrder', 'filterSource', 'filterGrade', 'filterMark'].forEach(id => {
                 document.getElementById(id)?.addEventListener('input', () => {
@@ -942,16 +1187,7 @@
                 els.phraseModeToggle.classList.toggle('text-white');
                 renderList();
             });
-            els.mobileBackBtn.addEventListener('click', () => {
-                isMobileDetailView = false;
-                els.contentArea.classList.add('hidden');
-                els.sidebarArea.classList.remove('hidden');
-                els.mobileBackBtn.classList.add('hidden');
-                els.appTitle.classList.remove('hidden');
-                els.importBtn.classList.remove('hidden');
-                els.navButtons.classList.add('hidden');
-                stopTtsList();
-            });
+            els.mobileBackBtn.addEventListener('click', goBackToList);
 
             els.prevDetailBtn.onclick = () => { stopTtsList(); navigateDetails(-1); };
             els.nextDetailBtn.onclick = () => { stopTtsList(); navigateDetails(1); };
@@ -967,18 +1203,21 @@
                 currentMode = 'dict';
                 els.modeDictBtn.classList.add('bg-white', 'shadow-sm', 'text-blue-600');
                 els.modeStudyBtn.classList.remove('bg-white', 'shadow-sm', 'text-blue-600');
-                els.extraSearchDict.classList.remove('hidden');
                 renderList();
             };
             els.modeStudyBtn.onclick = () => {
                 currentMode = 'study';
                 els.modeStudyBtn.classList.add('bg-white', 'shadow-sm', 'text-blue-600');
                 els.modeDictBtn.classList.remove('bg-white', 'shadow-sm', 'text-blue-600');
-                els.extraSearchDict.classList.add('hidden');
                 renderList();
             };
 
             els.ttsPlayListBtn.onclick = () => {
+                if(isTtsPlayingList) stopTtsList();
+                else startTtsList();
+            };
+
+            els.ttsPlayListDetailBtn.onclick = () => {
                 if(isTtsPlayingList) stopTtsList();
                 else startTtsList();
             };
@@ -989,6 +1228,14 @@
                     speakText(dictionaryData[editingIndex].word);
                 }
             };
+
+            els.infoBtn.onclick = toggleInfo;
+            els.searchModalBtn.onclick = toggleSearch;
+
+            els.jumpPrev100.onclick = () => jumpList(-100);
+            els.jumpPrev10.onclick = () => jumpList(-10);
+            els.jumpNext10.onclick = () => jumpList(10);
+            els.jumpNext100.onclick = () => jumpList(100);
         }
 
         init();
