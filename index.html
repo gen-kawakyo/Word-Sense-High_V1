@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Smart Textbook Dictionary</title>
+    <title>Word-Sense-High</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <style>
@@ -108,6 +108,41 @@
 </head>
 <body class="text-slate-800">
 
+    <!-- Cover Page -->
+    <div id="coverPage" class="fixed inset-0 z-[200] bg-slate-900 flex flex-col items-center justify-center p-6 text-white transition-opacity duration-500">
+        <div class="absolute inset-0 opacity-20 pointer-events-none overflow-hidden">
+            <div class="absolute -top-24 -left-24 w-96 h-96 bg-blue-600 rounded-full blur-[120px]"></div>
+            <div class="absolute -bottom-24 -right-24 w-96 h-96 bg-emerald-600 rounded-full blur-[120px]"></div>
+        </div>
+        
+        <div class="relative z-10 flex flex-col items-center">
+            <div class="mb-4 p-4 bg-white/10 rounded-3xl backdrop-blur-md border border-white/20 shadow-2xl">
+                <i data-lucide="book-open-check" class="w-12 h-12 text-blue-400"></i>
+            </div>
+            <h1 class="text-4xl md:text-6xl font-black mb-12 tracking-tighter text-center">
+                Word-Sense-<span class="text-blue-600">High</span>
+            </h1>
+            
+            <div class="grid grid-cols-2 gap-4 w-full max-w-md">
+                <button onclick="loadLevel('db48')" class="p-6 bg-white/5 hover:bg-white/10 border border-white/10 rounded-2xl transition-all active:scale-95 flex flex-col items-center gap-2 group hover:border-blue-500/50">
+                    <span class="text-3xl font-black group-hover:text-blue-400">DB48</span>
+                    <span class="text-[10px] opacity-50 uppercase font-bold tracking-widest">Standard Data</span>
+                </button>
+                <button onclick="loadLevel('db55')" class="p-6 bg-white/5 hover:bg-white/10 border border-white/10 rounded-2xl transition-all active:scale-95 flex flex-col items-center gap-2 group hover:border-blue-500/50">
+                    <span class="text-3xl font-black group-hover:text-blue-400">DB55</span>
+                    <span class="text-[10px] opacity-50 uppercase font-bold tracking-widest">Advanced Data</span>
+                </button>
+            </div>
+            
+            <p class="mt-12 text-slate-400 text-xs font-bold tracking-widest uppercase opacity-50">Select data to start learning</p>
+        </div>
+        
+        <button onclick="loadLevel('all')" class="fixed bottom-8 right-8 p-4 bg-blue-600 hover:bg-blue-500 text-white rounded-full shadow-2xl transition-all active:scale-90 flex items-center justify-center group z-20" title="全データを読み込む">
+            <i data-lucide="database" class="w-6 h-6"></i>
+            <span class="max-w-0 overflow-hidden group-hover:max-w-xs transition-all duration-300 ease-in-out whitespace-nowrap ml-0 group-hover:ml-2 font-bold text-sm">全データ</span>
+        </button>
+    </div>
+
     <div class="h-screen flex flex-col overflow-hidden">
         <!-- Header -->
         <header class="bg-white border-b border-slate-200 px-4 py-2 flex items-center justify-between shadow-sm z-50 shrink-0 h-14">
@@ -117,7 +152,7 @@
                 </button>
                 <h1 id="appTitle" class="text-lg md:text-xl font-black text-slate-900 flex items-center gap-2 truncate cursor-pointer" onclick="location.reload()">
                     <i data-lucide="book-open-check" class="text-blue-600 w-6 h-6 shrink-0"></i>
-                    <span>Smart<span class="text-blue-600">Dic</span></span>
+                    <span>Word-Sense-<span class="text-blue-600">High</span></span>
                 </h1>
             </div>
 
@@ -387,10 +422,11 @@
         let ttsMasterExIdx = -1; // 現在連続再生を開始した例文のインデックス
         let preferredVoice = null;
 
-        const defaultDataFiles = ['wordlist/DB48-std.json'];
-        const eikenFiles = {
-            'std': ['wordlist/DB48.json'],
-            'all': ['wordlist/DB48-std.json', 'wordlist/DB48-phr.json', 'wordlist/DB48-mul.json']
+        const defaultDataFiles = ['wordlist/DB48.json'];
+        const wordDataSets = {
+            'db48': ['wordlist/DB48.json'],
+            'db55': ['wordlist/DB55.json'],
+            'all': ['wordlist/DB48.json', 'wordlist/DB48-phr.json', 'wordlist/DB48-std.json', 'wordlist/DB55.json']
         };
 
         const VISUAL_CONFIG = {
@@ -469,9 +505,6 @@
             
             // Set default sort
             els.sortOrder.value = 'id_asc';
-
-            // Auto-load default data
-            loadLevel('std');
         }
 
         function initTtsVoices() {
@@ -621,7 +654,7 @@
         }
 
         async function loadLevel(level) {
-            const files = eikenFiles[level] || defaultDataFiles;
+            const files = wordDataSets[level] || defaultDataFiles;
             dictionaryData = []; // Clear existing
             
             // Show loading state (if cover exists)
