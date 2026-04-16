@@ -11496,5 +11496,6810 @@
         ]
       }
     ]
+  },
+  {
+    "word": "species",
+    "pronunciation": [
+      {
+        "text": "[spíːʃiːz]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "複数形に注意！"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "The bird has become an endangered {{red:species}}.",
+        "ja": "その鳥は絶滅危惧{{red:種}}となった。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0188",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "(生物の)種; 種類"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "usage",
+            "items": [
+              {
+                "type": "注意",
+                "label": "複",
+                "content": "も同形",
+                "subSenses": [
+                  {
+                    "pos": "",
+                    "meanings": [
+                      ""
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "resource",
+    "pronunciation": [
+      {
+        "text": "[ríːsɔːrs]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "複数形に注意！"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "Japan is dependent on overseas natural {{red:resources}}.",
+        "ja": "日本は海外の天然{{red:資源}}に頼っている。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0189",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①((通)常(複)で) 資源; 財源"
+          },
+          {
+            "type": "",
+            "meaning": "②(臨機応変の)才能"
+          },
+          {
+            "type": "",
+            "meaning": "③(非常時の)手段"
+          },
+          {
+            "type": "",
+            "meaning": "④気晴らし"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "circumstance",
+    "pronunciation": [
+      {
+        "text": "[sə́ːrkəmstæ̀ns]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "複数形に注意！"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "Under no {{red:circumstances}} should you borrow or lend money.",
+        "ja": "決してお金の貸し借りはしてはいけない。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0190",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "((通)常(複)で) (周囲の)状況, 事情, 環境"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "phrases",
+            "items": [
+              {
+                "type": "",
+                "label": "関連",
+                "content": "**under** [**in**] **no circumstances**",
+                "subSenses": [
+                  {
+                    "pos": "",
+                    "meanings": [
+                      "決して…ない"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "hypothesis",
+    "pronunciation": [
+      {
+        "text": "[haipɑ́θəsis]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "複数形に注意！"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "This theory evolved from an earlier {{red:hypothesis}}.",
+        "ja": "この理論は初期の{{red:仮説}}から発展したものだった。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0191",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "仮説, 前提"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "usage",
+            "items": [
+              {
+                "type": "",
+                "label": "複",
+                "content": "**hypotheses** [haipɑ́θəsiːz]",
+                "subSenses": [
+                  {
+                    "pos": "",
+                    "meanings": [
+                      ""
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "analysis",
+    "pronunciation": [
+      {
+        "text": "[ənǽləsis]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "複数形に注意！"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "The {{red:analysis}} of the water showed that it contained chemical pollutants.",
+        "ja": "その水を{{red:分析した}}結果，化学汚染物質を含んでいることがわかった。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0192",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "分析",
+            "subsections": [
+              {
+                "type": "related",
+                "items": [
+                  {
+                    "type": "",
+                    "label": "反意",
+                    "content": "**synthesis**",
+                    "subSenses": [
+                      {
+                        "pos": "",
+                        "meanings": [
+                          "総合"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "subsections": [
+          {
+            "type": "usage",
+            "items": [
+              {
+                "type": "",
+                "label": "複",
+                "content": "**analyses** [ənǽləsiːz]",
+                "subSenses": [
+                  {
+                    "pos": "",
+                    "meanings": [
+                      ""
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**analyze**",
+                "subSenses": [
+                  {
+                    "pos": "動",
+                    "meanings": [
+                      "を分析する"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "phenomenon",
+    "pronunciation": [
+      {
+        "text": "[finɑ́mənɑ̀n]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "複数形に注意！"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "Aurora is a natural {{red:phenomenon}} that can be seen at the poles.",
+        "ja": "オーロラは両極で見られる自然{{red:現象}}である。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0193",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①現象"
+          },
+          {
+            "type": "",
+            "meaning": "②驚くべき人 [物事]"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "usage",
+            "items": [
+              {
+                "type": "",
+                "label": "複",
+                "content": "**phenomena**",
+                "subSenses": [
+                  {
+                    "pos": "",
+                    "meanings": [
+                      "①の場合"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "",
+                "label": "複",
+                "content": "**phenomenons**",
+                "subSenses": [
+                  {
+                    "pos": "",
+                    "meanings": [
+                      "②の場合"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "degree",
+    "pronunciation": [
+      {
+        "text": "[diɡríː]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "数量・程度を表す語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "You can trust his report to a certain {{red:degree}}.",
+        "ja": "彼の報告書はある{{red:程度}}までは信じてかまわない。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0194",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①程度; (温度・角度などの)度"
+          },
+          {
+            "type": "",
+            "meaning": "②学位"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "phrases",
+            "items": [
+              {
+                "type": "",
+                "label": "関連",
+                "content": "**to a degree**",
+                "subSenses": [
+                  {
+                    "pos": "",
+                    "meanings": [
+                      "いくらか; かなり"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "",
+                "label": "関連",
+                "content": "**by degrees**",
+                "subSenses": [
+                  {
+                    "pos": "",
+                    "meanings": [
+                      "しだいに"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "extent",
+    "pronunciation": [
+      {
+        "text": "[ikstént]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "数量・程度を表す語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "Japan's car industry has developed to such an {{red:extent}} that it is the envy of the world.",
+        "ja": "日本の自動車産業は世界からねたまれる{{red:程度}}にまで成長した。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0195",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①範囲; 程度"
+          },
+          {
+            "type": "",
+            "meaning": "②広さ; 大きさ"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**extend**",
+                "subSenses": [
+                  {
+                    "pos": "動",
+                    "meanings": [
+                      "広がる"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**extensive**",
+                "subSenses": [
+                  {
+                    "pos": "形",
+                    "meanings": [
+                      "広大な"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**extension**",
+                "subSenses": [
+                  {
+                    "pos": "名",
+                    "meanings": [
+                      "拡張; 内線電話"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "phrases",
+            "items": [
+              {
+                "type": "",
+                "label": "関連",
+                "content": "**to such an extent that ...**",
+                "subSenses": [
+                  {
+                    "pos": "",
+                    "meanings": [
+                      "…という程度まで"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "abundant",
+    "pronunciation": [
+      {
+        "text": "[əbʌ́ndənt]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "数量・程度を表す語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "The country is {{red:abundant in}} natural resources, including lakes, forests and minerals.",
+        "ja": "その国は湖や森林，鉱物といった天然資源が{{red:豊富である}}。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0196",
+    "senses": [
+      {
+        "pos": "形",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "豊富な, 豊かな",
+            "subsections": [
+              {
+                "type": "related",
+                "items": [
+                  {
+                    "type": "",
+                    "label": "反意",
+                    "content": "**scarce**",
+                    "subSenses": [
+                      {
+                        "pos": "",
+                        "meanings": [
+                          "乏しい"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**abound**",
+                "subSenses": [
+                  {
+                    "pos": "動",
+                    "meanings": [
+                      "{**abound in** [**with**] ... で} …に富む"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**abundance**",
+                "subSenses": [
+                  {
+                    "pos": "名",
+                    "meanings": [
+                      "豊富; 大量"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "phrases",
+            "items": [
+              {
+                "type": "",
+                "label": "関連",
+                "content": "**be abundant in ...**",
+                "subSenses": [
+                  {
+                    "pos": "",
+                    "meanings": [
+                      "…が豊富である"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "entire",
+    "pronunciation": [
+      {
+        "text": "[entáiər]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "数量・程度を表す語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "The attack on the World Trade Center Towers not only shook America; it shook the {{red:entire}} world.",
+        "ja": "世界貿易センタービルへの攻撃は，アメリカだけでなく世界{{red:全体}}を震撼させた。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0197",
+    "senses": [
+      {
+        "pos": "形",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "全体の, 〜の全体; 完全な"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "enormous",
+    "pronunciation": [
+      {
+        "text": "[inɔ́ːrməs]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "数量・程度を表す語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "There is an {{red:enormous}} amount of evidence to show that smoking is dangerous.",
+        "ja": "喫煙が危険であることを示す{{red:ぼう大な}}量の証拠がある。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0198",
+    "senses": [
+      {
+        "pos": "形",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "巨大な; ぼう大な",
+            "subsections": [
+              {
+                "type": "related",
+                "items": [
+                  {
+                    "type": "",
+                    "label": "同意",
+                    "content": "**immense**"
+                  },
+                  {
+                    "type": "",
+                    "label": "同意",
+                    "content": "**huge**"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "supreme",
+    "pronunciation": [
+      {
+        "text": "[supríːm]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "数量・程度を表す語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "He is recognized as the {{red:supreme}} authority on the subject.",
+        "ja": "彼はその問題に関する{{red:最高の}}権威であると認められている。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0199",
+    "senses": [
+      {
+        "pos": "形",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "最高の; 至高の"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**supremacy**",
+                "subSenses": [
+                  {
+                    "pos": "名",
+                    "meanings": [
+                      "至高"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "debt",
+    "pronunciation": [
+      {
+        "text": "[det]",
+        "notes": [
+          "発音注意"
+        ],
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "発音に注意！"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "He is deep {{red:in debt}} and is going to declare himself bankrupt.",
+        "ja": "彼は多額の{{red:借金があり}}，自己破産を宣言するつもりだ。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0200",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①借金"
+          },
+          {
+            "type": "注意",
+            "meaning": "②恩義"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "phrases",
+            "items": [
+              {
+                "type": "",
+                "label": "関連",
+                "content": "**be in debt (to ...)**",
+                "subSenses": [
+                  {
+                    "pos": "",
+                    "meanings": [
+                      "(…に)借金がある"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "luxury",
+    "pronunciation": [
+      {
+        "text": "[lʌ́kʃəri]",
+        "notes": [
+          "発音注意"
+        ],
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "発音に注意！"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "In my youth caviar was a {{red:luxury}} unknown to me.",
+        "ja": "若いころはキャビアは私の知らない{{red:ぜいたく品}}だった。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0201",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "ぜいたく(品)"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**luxurious**",
+                "subSenses": [
+                  {
+                    "pos": "形",
+                    "meanings": [
+                      "ぜいたくな"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "bury",
+    "pronunciation": [
+      {
+        "text": "[béri]",
+        "notes": [
+          "発音注意"
+        ],
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "発音に注意！"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "The area is off-limits due to the presence of landmines {{red:buried}} underground.",
+        "ja": "その地域は地中に{{red:埋められた}}地雷があるため立入禁止だ。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0202",
+    "senses": [
+      {
+        "pos": "動",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "を埋める, を埋葬する"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**burial**",
+                "subSenses": [
+                  {
+                    "pos": "名",
+                    "meanings": [
+                      "埋葬"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "subtle",
+    "pronunciation": [
+      {
+        "text": "[sʌ́tl]",
+        "notes": [
+          "発音注意"
+        ],
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "発音に注意！"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "It is difficult to learn the {{red:subtle}} differences between certain English words.",
+        "ja": "英語の単語には{{red:微妙な}}違いを学ぶのが難しいものがある。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0203",
+    "senses": [
+      {
+        "pos": "形",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①微妙な, とらえにくい"
+          },
+          {
+            "type": "",
+            "meaning": "②かすかな"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**subtlety**",
+                "subSenses": [
+                  {
+                    "pos": "名",
+                    "meanings": [
+                      "①微妙さ",
+                      "②希薄"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "worthy",
+    "pronunciation": [
+      {
+        "text": "[wə́ːrði]",
+        "notes": [
+          "発音注意"
+        ],
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "発音に注意！"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "The question is whether the politician is {{red:worthy of}} the people's trust.",
+        "ja": "問題は，その政治家が国民の信頼に{{red:値する}}のかどうかだ。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0204",
+    "senses": [
+      {
+        "pos": "形",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "{**be worthy of** ... [**to do**] で} …に値する, …の価値がある"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**worth**",
+                "subSenses": [
+                  {
+                    "pos": "名",
+                    "meanings": [
+                      "価値"
+                    ]
+                  },
+                  {
+                    "pos": "形",
+                    "meanings": [
+                      "(**worth -ing** で) 〜する価値がある"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "verbal",
+    "pronunciation": [
+      {
+        "text": "[və́ːrb(ə)l]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "言語・コミュニケーションのキーワード"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "He is doing research on the relationship between {{red:verbal}} and nonverbal communication.",
+        "ja": "彼は{{red:言語による}}コミュニケーションと非言語によるそれとの関係を研究中だ。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0205",
+    "senses": [
+      {
+        "pos": "形",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "言葉の; 口での; 動詞の"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**verb**",
+                "subSenses": [
+                  {
+                    "pos": "名",
+                    "meanings": [
+                      "動詞"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "linguistic",
+    "pronunciation": [
+      {
+        "text": "[liŋɡwístik]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "言語・コミュニケーションのキーワード"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "I want to go to England to pursue my {{red:linguistic}} studies.",
+        "ja": "私は{{red:言語学}}の研究を進めるためにイングランドへ行きたい。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0206",
+    "senses": [
+      {
+        "pos": "形",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "言語の; 言語学の"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**linguistics**",
+                "subSenses": [
+                  {
+                    "pos": "名",
+                    "meanings": [
+                      "言語学"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**linguist**",
+                "subSenses": [
+                  {
+                    "pos": "名",
+                    "meanings": [
+                      "言語学者; 語学の才がある人"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "tongue",
+    "pronunciation": [
+      {
+        "text": "[tʌŋ]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "言語・コミュニケーションのキーワード"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "This dictionary is intended for people whose native {{red:tongue}} is not English.",
+        "ja": "この辞書は母国{{red:語}}が英語でない人のために書かれている。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0207",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①国語, 言語",
+            "subsections": [
+              {
+                "type": "related",
+                "items": [
+                  {
+                    "type": "",
+                    "label": "同意",
+                    "content": "**language**"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "",
+            "meaning": "②舌"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "phrases",
+            "items": [
+              {
+                "type": "",
+                "label": "関連",
+                "content": "**mother** [**native**] **tongue**",
+                "subSenses": [
+                  {
+                    "pos": "",
+                    "meanings": [
+                      "母語"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "",
+                "label": "関連",
+                "content": "**hold one's tongue**",
+                "subSenses": [
+                  {
+                    "pos": "",
+                    "meanings": [
+                      "〈命令文で〉黙れ"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "explanation",
+    "pronunciation": [
+      {
+        "text": "[èksplənéiʃən]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "言語・コミュニケーションのキーワード"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "There are several possible {{red:explanations}} for the plane crash.",
+        "ja": "その飛行機墜落事故の理由について，いくつかの{{red:説明}}が可能である。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0208",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "説明; 弁解"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**explain**",
+                "subSenses": [
+                  {
+                    "pos": "動",
+                    "meanings": [
+                      "を説明する"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "command",
+    "pronunciation": [
+      {
+        "text": "[kəmǽnd]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "言語・コミュニケーションのキーワード"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "Having lived in London for so long, she has a {{red:command}} of English.",
+        "ja": "ロンドンに長く住んでいたので，彼女は英語を{{red:自由に操る能力}}がある。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0209",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①(言語などを)自由に操る能力"
+          },
+          {
+            "type": "",
+            "meaning": "②命令"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "phrases",
+            "items": [
+              {
+                "type": "",
+                "label": "関連",
+                "content": "**at one's command**",
+                "subSenses": [
+                  {
+                    "pos": "",
+                    "meanings": [
+                      "〈人〉の自由になって"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pos": "動",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①に命令する"
+          },
+          {
+            "type": "",
+            "meaning": "②を支配する"
+          },
+          {
+            "type": "",
+            "meaning": "③(景色など)を見渡す"
+          },
+          {
+            "type": "",
+            "meaning": "④を自由に使いこなす"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "convey",
+    "pronunciation": [
+      {
+        "text": "[kənvéi]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "言語・コミュニケーションのキーワード"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "Words cannot {{red:convey}} how glad I am.",
+        "ja": "私がどんなにうれしいか言葉では{{red:伝えられない}}。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0210",
+    "senses": [
+      {
+        "pos": "動",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①(思想・意味など)を伝える"
+          },
+          {
+            "type": "",
+            "meaning": "②を運ぶ"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**conveyor**",
+                "subSenses": [
+                  {
+                    "pos": "名",
+                    "meanings": [
+                      "コンベア; 運搬装置"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "define",
+    "pronunciation": [
+      {
+        "text": "[difáin]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "言語・コミュニケーションのキーワード"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "The dictionary {{red:defines}} a square as a rectangle with four equal sides.",
+        "ja": "その辞書は，正方形を4辺の等しい直角四角形と{{red:定義している}}。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0211",
+    "senses": [
+      {
+        "pos": "動",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①を定義する"
+          },
+          {
+            "type": "",
+            "meaning": "②を限定する"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**definition**",
+                "subSenses": [
+                  {
+                    "pos": "名",
+                    "meanings": [
+                      "定義, 語義"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**definite**",
+                "subSenses": [
+                  {
+                    "pos": "形",
+                    "meanings": [
+                      "明確な"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "mercy",
+    "pronunciation": [
+      {
+        "text": "[mə́ːrsi]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "宗教論のキーワード"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "The soldiers showed no {{red:mercy}} on the prisoners.",
+        "ja": "兵隊たちは捕虜に対して{{red:情け}}をかけなかった。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0212",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①慈悲, 情け"
+          },
+          {
+            "type": "",
+            "meaning": "②幸運"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**merciful**",
+                "subSenses": [
+                  {
+                    "pos": "形",
+                    "meanings": [
+                      "慈悲深い"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "phrases",
+            "items": [
+              {
+                "type": "",
+                "label": "関連",
+                "content": "**at the mercy of ...**",
+                "subSenses": [
+                  {
+                    "pos": "",
+                    "meanings": [
+                      "…のなすがままに"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "sin",
+    "pronunciation": [
+      {
+        "text": "[sín]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "宗教論のキーワード"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "In the Christian worldview, adultery is a {{red:sin}}.",
+        "ja": "キリスト教の世界観では，姦淫は{{red:罪}}である。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0213",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "(宗教・道徳上の)罪"
+          }
+        ]
+      },
+      {
+        "pos": "動",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "罪を犯す"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "faith",
+    "pronunciation": [
+      {
+        "text": "[féiθ]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "宗教論のキーワード"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "I have {{red:faith}} in the infinite possibilities of man.",
+        "ja": "私は，人間には無限の可能性があると{{red:信頼している}}。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0214",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①信頼, 信用"
+          },
+          {
+            "type": "",
+            "meaning": "②信仰, 信念"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**faithful**",
+                "subSenses": [
+                  {
+                    "pos": "形",
+                    "meanings": [
+                      "忠実な"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "phrases",
+            "items": [
+              {
+                "type": "",
+                "label": "関連",
+                "content": "**have faith in ...**",
+                "subSenses": [
+                  {
+                    "pos": "",
+                    "meanings": [
+                      "…を信頼 [信用] する"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "sacrifice",
+    "pronunciation": [
+      {
+        "text": "[sǽkrəfàis]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "宗教論のキーワード"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "Mike completed writing the book {{red:at the sacrifice of}} his health.",
+        "ja": "マイクは健康を{{red:犠牲にして}}その本を書き終えた。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0215",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "犠牲; いけにえ"
+          }
+        ]
+      },
+      {
+        "pos": "動",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "を犠牲にする"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "phrases",
+            "items": [
+              {
+                "type": "",
+                "label": "関連",
+                "content": "**at the sacrifice of ...**",
+                "subSenses": [
+                  {
+                    "pos": "",
+                    "meanings": [
+                      "…を犠牲にして"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "worship",
+    "pronunciation": [
+      {
+        "text": "[wə́ːrʃəp]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "宗教論のキーワード"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "The islanders still practice nature {{red:worship}}.",
+        "ja": "その島民たちは今でも自然{{red:崇拝}}を実践している。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0216",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "崇拝; 礼拝"
+          }
+        ]
+      },
+      {
+        "pos": "動",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "を崇拝する; 礼拝する"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "sacred",
+    "pronunciation": [
+      {
+        "text": "[séikrid]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "宗教論のキーワード"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "The Koran is the {{red:sacred}} book of Islam.",
+        "ja": "コーランはイスラム教の{{red:聖典}}である。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0217",
+    "senses": [
+      {
+        "pos": "形",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "聖なる; (神などを)祭った",
+            "subsections": [
+              {
+                "type": "related",
+                "items": [
+                  {
+                    "type": "",
+                    "label": "同意",
+                    "content": "**holy**"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "eternal",
+    "pronunciation": [
+      {
+        "text": "[itə́ːrnl]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "宗教論のキーワード"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "Christians believe that after death, there is {{red:eternal}} life for believers.",
+        "ja": "キリスト教徒は，死後も信者たちに{{red:永遠の}}生命が存在すると信じている。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0218",
+    "senses": [
+      {
+        "pos": "形",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "永遠の, 永久の",
+            "subsections": [
+              {
+                "type": "related",
+                "items": [
+                  {
+                    "type": "",
+                    "label": "反意",
+                    "content": "**temporary**",
+                    "subSenses": [
+                      {
+                        "pos": "",
+                        "meanings": [
+                          "一時の"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**eternity**",
+                "subSenses": [
+                  {
+                    "pos": "名",
+                    "meanings": [
+                      "永遠; 永劫"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "dawn",
+    "pronunciation": [
+      {
+        "text": "[dɔ́ːn]",
+        "notes": [
+          "発音注意"
+        ],
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "自然・農業に関する語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "The general decided to attack the enemy {{red:at the break of dawn}}.",
+        "ja": "将軍は{{red:夜明けに}}敵を攻撃することに決めた。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0219",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①夜明け",
+            "subsections": [
+              {
+                "type": "related",
+                "items": [
+                  {
+                    "type": "",
+                    "label": "反意",
+                    "content": "**dusk**",
+                    "subSenses": [
+                      {
+                        "pos": "",
+                        "meanings": [
+                          "たそがれ"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "",
+            "meaning": "②(物事の)始まり"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "phrases",
+            "items": [
+              {
+                "type": "",
+                "label": "関連",
+                "content": "**at the break of dawn**",
+                "subSenses": [
+                  {
+                    "pos": "",
+                    "meanings": [
+                      "夜明けに"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pos": "動",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①夜が明ける"
+          },
+          {
+            "type": "注意",
+            "meaning": "②現れ始める, 発達し始める"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "phrases",
+            "items": [
+              {
+                "type": "",
+                "label": "関連",
+                "content": "**dawn on ...**",
+                "subSenses": [
+                  {
+                    "pos": "",
+                    "meanings": [
+                      "…に理解され始める"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "oxygen",
+    "pronunciation": [
+      {
+        "text": "[ɑ́ksidʒən]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "自然・農業に関する語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "{{red:Oxygen}} combines with hydrogen to form water.",
+        "ja": "{{red:酸素}}は水素と化合して水になる。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0220",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "酸素"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "notes",
+            "items": [
+              {
+                "type": "",
+                "label": "注意",
+                "content": "「水素」は **hydrogen**",
+                "subSenses": [
+                  {
+                    "pos": "",
+                    "meanings": [
+                      ""
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "substance",
+    "pronunciation": [
+      {
+        "text": "[sʌ́bstəns]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "自然・農業に関する語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "Water and ice are the same {{red:substances}} in different forms.",
+        "ja": "水と氷は同じ{{red:物質}}の異形態である。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0221",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①物質; (漠然と)もの"
+          },
+          {
+            "type": "",
+            "meaning": "②実質, 本質"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**substantial**",
+                "subSenses": [
+                  {
+                    "pos": "形",
+                    "meanings": [
+                      "実質的な; かなりの"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "fertile",
+    "pronunciation": [
+      {
+        "text": "[fə́ːrtl]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "自然・農業に関する語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "A {{red:fertile}} field will produce good crops, but a barren field will not grow anything.",
+        "ja": "{{red:肥よく}}な土地では作物がよく育つが，不毛な土地では何も育たない。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0222",
+    "senses": [
+      {
+        "pos": "形",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①(土地が)肥よくした",
+            "subsections": [
+              {
+                "type": "related",
+                "items": [
+                  {
+                    "type": "",
+                    "label": "反意",
+                    "content": "**barren**",
+                    "subSenses": [
+                      {
+                        "pos": "",
+                        "meanings": [
+                          "不毛な"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "",
+            "meaning": "②(動物が)多産の",
+            "subsections": [
+              {
+                "type": "related",
+                "items": [
+                  {
+                    "type": "",
+                    "label": "反意",
+                    "content": "**sterile**",
+                    "subSenses": [
+                      {
+                        "pos": "",
+                        "meanings": [
+                          "繁殖力のない"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**fertility**",
+                "subSenses": [
+                  {
+                    "pos": "名",
+                    "meanings": [
+                      "①肥よく",
+                      "②多産"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "yield",
+    "pronunciation": [
+      {
+        "text": "[jíːld]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "自然・農業に関する語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "This soil always {{red:yields}} an abundant harvest of wheat.",
+        "ja": "この土地はいつも小麦の豊かな{{red:収穫を産出する}}。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0223",
+    "senses": [
+      {
+        "pos": "動",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①を産出する",
+            "subsections": [
+              {
+                "type": "related",
+                "items": [
+                  {
+                    "type": "",
+                    "label": "同意",
+                    "content": "**produce**"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "",
+            "meaning": "②{**yield to** ... で} …に屈服する",
+            "subsections": [
+              {
+                "type": "phrases",
+                "items": [
+                  {
+                    "type": "",
+                    "label": "同意",
+                    "content": "**give in** [**way**] **to** ...",
+                    "subSenses": [
+                      {
+                        "pos": "",
+                        "meanings": [
+                          ""
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "産出(高), 収穫(量)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "candidate",
+    "pronunciation": [
+      {
+        "text": "[kǽndidèit]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "政治・政策のキーワード"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "In the presidential election, whichever {{red:candidate}} gets the majority of the votes wins.",
+        "ja": "大統領選挙では，どちら側であれ過半数を得た{{red:候補者}}が当選となる。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0224",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①候補者"
+          },
+          {
+            "type": "",
+            "meaning": "②志願者, 受験者"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "kingdom",
+    "pronunciation": [
+      {
+        "text": "[kíŋdəm]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "政治・政策のキーワード"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "U.K. stands for the United {{red:Kingdom}} of Great Britain and Northern Ireland.",
+        "ja": "UKとはグレートブリテン及び北アイルランド連合{{red:王国}}を略したものだ。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0225",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①王国"
+          },
+          {
+            "type": "",
+            "meaning": "②領域; 〜界"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "phrases",
+            "items": [
+              {
+                "type": "",
+                "label": "関連",
+                "content": "**the animal** [**plant**] **kingdom**",
+                "subSenses": [
+                  {
+                    "pos": "",
+                    "meanings": [
+                      "動 [植] 物界"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "revolution",
+    "pronunciation": [
+      {
+        "text": "[rèvəlúːʃən]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "政治・政策のキーワード"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "The Industrial {{red:Revolution}} gave rise to the ruling class and the working class.",
+        "ja": "産業{{red:革命}}は支配階級と労働者階級を生み出した。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0226",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①革命"
+          },
+          {
+            "type": "",
+            "meaning": "②回転; 公転"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**revolve**",
+                "subSenses": [
+                  {
+                    "pos": "動",
+                    "meanings": [
+                      "回転する; を回転させる"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**revolutionary**",
+                "subSenses": [
+                  {
+                    "pos": "形",
+                    "meanings": [
+                      "革命の; 画期的な"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "treaty",
+    "pronunciation": [
+      {
+        "text": "[tríːti]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "政治・政策のキーワード"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "The two countries finally decided to sign a peace {{red:treaty}}.",
+        "ja": "両国はついに平和{{red:条約}}に署名することに決めた。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0227",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "条約; 協定"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "appoint",
+    "pronunciation": [
+      {
+        "text": "[əpɔ́int]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "政治・政策のキーワード"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "The President {{red:appointed}} his campaign manager as Secretary of State.",
+        "ja": "大統領は自分の選挙運動の責任者を国務長官に{{red:任命した}}。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0228",
+    "senses": [
+      {
+        "pos": "動",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①(役職に)を任命する"
+          },
+          {
+            "type": "",
+            "meaning": "②(時・場所)を約束して決める"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**appointment**",
+                "subSenses": [
+                  {
+                    "pos": "名",
+                    "meanings": [
+                      "①任命",
+                      "②約束; 予約"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "abolish",
+    "pronunciation": [
+      {
+        "text": "[əbɑ́liʃ]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "政治・政策のキーワード"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "Many people think we should {{red:abolish}} the death penalty.",
+        "ja": "多くの人は死刑制度を{{red:廃止する}}べきだと考えている。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0229",
+    "senses": [
+      {
+        "pos": "動",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "(制度・習慣など)を廃止する",
+            "subsections": [
+              {
+                "type": "related",
+                "items": [
+                  {
+                    "type": "",
+                    "label": "同意",
+                    "content": "**do away with**"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**abolition**",
+                "subSenses": [
+                  {
+                    "pos": "名",
+                    "meanings": [
+                      "廃止"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "civil",
+    "pronunciation": [
+      {
+        "text": "[sívl]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "政治・政策のキーワード"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "For many years, blacks were deprived of their {{red:civil}} rights.",
+        "ja": "長年にわたり黒人は{{red:公民}}権を奪われていた。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0230",
+    "senses": [
+      {
+        "pos": "形",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①公民の, 市民の; 民間の"
+          },
+          {
+            "type": "",
+            "meaning": "②礼儀正しい"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**civilian**",
+                "subSenses": [
+                  {
+                    "pos": "名",
+                    "meanings": [
+                      "民間人"
+                    ]
+                  },
+                  {
+                    "pos": "形",
+                    "meanings": [
+                      "民間の"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "phrases",
+            "items": [
+              {
+                "type": "",
+                "label": "関連",
+                "content": "**a civil war**",
+                "subSenses": [
+                  {
+                    "pos": "",
+                    "meanings": [
+                      "内戦"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "reluctant",
+    "pronunciation": [
+      {
+        "text": "[rilʌ́ktənt]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "人の意識を表す語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "Dad is {{red:reluctant to}} talk to complete strangers on the phone.",
+        "ja": "父さんは電話でまったく知らない人と話すのを{{red:嫌がる}}。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0231",
+    "senses": [
+      {
+        "pos": "形",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "嫌な, 気の進まない",
+            "subsections": [
+              {
+                "type": "related",
+                "items": [
+                  {
+                    "type": "",
+                    "label": "類義",
+                    "content": "**unwilling**"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**reluctance**",
+                "subSenses": [
+                  {
+                    "pos": "名",
+                    "meanings": [
+                      "気乗りしないこと"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "phrases",
+            "items": [
+              {
+                "type": "",
+                "label": "関連",
+                "content": "**be reluctant to do**",
+                "subSenses": [
+                  {
+                    "pos": "",
+                    "meanings": [
+                      "〜するのを嫌がる"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "earnest",
+    "pronunciation": [
+      {
+        "text": "[ə́ːrnist]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "人の意識を表す語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "He is a nice young man, but I wish he weren't so {{red:earnest}}.",
+        "ja": "彼は好青年だが，あんなに{{red:まじめ}}でなくてもいいのに。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0232",
+    "senses": [
+      {
+        "pos": "形",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①まじめな, 真剣な"
+          },
+          {
+            "type": "",
+            "meaning": "②熱心な"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "phrases",
+            "items": [
+              {
+                "type": "",
+                "label": "関連",
+                "content": "**in earnest**",
+                "subSenses": [
+                  {
+                    "pos": "",
+                    "meanings": [
+                      "本気で, まじめに"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "stubborn",
+    "pronunciation": [
+      {
+        "text": "[stʌ́bərn]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "人の意識を表す語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "Don't be {{red:stubborn}} about doing things in your own way.",
+        "ja": "自己流で物事をやり通そうとするのに{{red:頑固に}}ならないこと。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0233",
+    "senses": [
+      {
+        "pos": "形",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "頑固な, 強情な",
+            "subsections": [
+              {
+                "type": "related",
+                "items": [
+                  {
+                    "type": "",
+                    "label": "同意",
+                    "content": "**obstinate**"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "keen",
+    "pronunciation": [
+      {
+        "text": "[kiːn]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "人の意識を表す語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "Dogs have a {{red:keen}} sense of smell and acute hearing.",
+        "ja": "犬は{{red:鋭い}}嗅覚と聴覚をもっている。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0234",
+    "senses": [
+      {
+        "pos": "形",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①鋭い; 鋭敏な"
+          },
+          {
+            "type": "",
+            "meaning": "②熱心な",
+            "subsections": [
+              {
+                "type": "related",
+                "items": [
+                  {
+                    "type": "",
+                    "label": "同意",
+                    "content": "**enthusiastic**"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "subsections": [
+          {
+            "type": "phrases",
+            "items": [
+              {
+                "type": "",
+                "label": "関連",
+                "content": "**be keen on -ing**",
+                "subSenses": [
+                  {
+                    "pos": "",
+                    "meanings": [
+                      "〜するのに熱中している"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "notorious",
+    "pronunciation": [
+      {
+        "text": "[noutɔ́ːriəs]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "人の意識を表す語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "The city is {{red:notorious for}} its high crime rate.",
+        "ja": "その都市は犯罪発生率が高いことで{{red:悪名高い}}。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0235",
+    "senses": [
+      {
+        "pos": "形",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "(悪い意味で)有名な, 悪名高い",
+            "subsections": [
+              {
+                "type": "related",
+                "items": [
+                  {
+                    "type": "",
+                    "label": "同意",
+                    "content": "**infamous**"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "subsections": [
+          {
+            "type": "phrases",
+            "items": [
+              {
+                "type": "",
+                "label": "関連",
+                "content": "**be notorious for ...**",
+                "subSenses": [
+                  {
+                    "pos": "",
+                    "meanings": [
+                      "…で悪名高い"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "enthusiasm",
+    "pronunciation": [
+      {
+        "text": "[enθjúːziæ̀zm]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "人の意識を表す語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "The fans of the Yankees exhibited {{red:enthusiasm}} for their team.",
+        "ja": "ヤンキースのファンはチームに{{red:熱狂}}していた。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0236",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "熱狂, 熱中"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**enthusiastic**",
+                "subSenses": [
+                  {
+                    "pos": "形",
+                    "meanings": [
+                      "熱狂的な"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "phrases",
+            "items": [
+              {
+                "type": "",
+                "label": "関連",
+                "content": "**with enthusiasm**",
+                "subSenses": [
+                  {
+                    "pos": "",
+                    "meanings": [
+                      "熱中して"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "advertise",
+    "pronunciation": [
+      {
+        "text": "[ǽdvərtàiz]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "経済・広告論のキーワード①"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "Knowledge of consumer habits is necessary in order to {{red:advertise}} effectively.",
+        "ja": "効果的に{{red:宣伝する}}ためには消費者の習性を知ることが必要だ。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0237",
+    "senses": [
+      {
+        "pos": "動",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "(を)広告する, (を)宣伝する"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**advertisement**",
+                "subSenses": [
+                  {
+                    "pos": "名",
+                    "meanings": [
+                      "広告, 宣伝"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**advertising**",
+                "subSenses": [
+                  {
+                    "pos": "名",
+                    "meanings": [
+                      "広告(業)"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "purchase",
+    "pronunciation": [
+      {
+        "text": "[pə́ːrtʃəs]",
+        "notes": [
+          "発音注意",
+          "アクセント注意"
+        ],
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "経済・広告論のキーワード①"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "I'll ask the bank for a loan to {{red:purchase}} the condominium.",
+        "ja": "分譲マンションを{{red:購入する}}ために銀行にローンを申し込むつもりだ。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0238",
+    "senses": [
+      {
+        "pos": "動",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①を購入する"
+          },
+          {
+            "type": "",
+            "meaning": "②を獲得する"
+          }
+        ]
+      },
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "購入(品)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "budget",
+    "pronunciation": [
+      {
+        "text": "[bʌ́dʒət]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "経済・広告論のキーワード①"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "Our company spends a large part of the {{red:budget}} on advertising.",
+        "ja": "我が社は{{red:予算}}のかなりの部分を宣伝に使う。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0239",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "予算(案); 経費; 家計"
+          }
+        ]
+      },
+      {
+        "pos": "動",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "予算を立てる"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "enterprise",
+    "pronunciation": [
+      {
+        "text": "[éntərpràiz]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "経済・広告論のキーワード①"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "Who is going to invest money in this bold {{red:enterprise}}?",
+        "ja": "このような大胆な{{red:事業}}に誰がお金を出すだろうか?"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0240",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①事業",
+            "subsections": [
+              {
+                "type": "related",
+                "items": [
+                  {
+                    "type": "",
+                    "label": "同意",
+                    "content": "**venture**"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "",
+            "meaning": "②企業"
+          },
+          {
+            "type": "",
+            "meaning": "③冒険心"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**enterprising**",
+                "subSenses": [
+                  {
+                    "pos": "形",
+                    "meanings": [
+                      "冒険心のある, 意欲的な"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "depression",
+    "pronunciation": [
+      {
+        "text": "[dipréʃən]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "経済・広告論のキーワード①"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "The stock market crash of 1929 led to the Great {{red:Depression}} of the 1930s.",
+        "ja": "1929年の株式市場の暴落により1930年代の大{{red:不況}}が起こった。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0241",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①不況, 不景気"
+          },
+          {
+            "type": "注意",
+            "meaning": "②憂うつ, 意気消沈"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**depress**",
+                "subSenses": [
+                  {
+                    "pos": "動",
+                    "meanings": [
+                      "を落胆させる; を不振にする"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "fund",
+    "pronunciation": [
+      {
+        "text": "[fʌnd]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "経済・広告論のキーワード①"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "Our volunteer group is raising {{red:funds}} for the victims of the earthquake.",
+        "ja": "私たちのボランティア団体は地震の被災者のための{{red:基金}}を募っている。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0242",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①基金"
+          },
+          {
+            "type": "",
+            "meaning": "②資金"
+          },
+          {
+            "type": "",
+            "meaning": "③(知識などの)蓄え"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "stock",
+    "pronunciation": [
+      {
+        "text": "[stɑk]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "経済・広告論のキーワード①"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "They have all sizes of shoes {{red:in stock}}, so you can find shoes to fit you.",
+        "ja": "あの店ではあらゆるサイズの靴の{{red:在庫があって}}，合う靴が見つかるよ。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0243",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①在庫(品); 貯蔵品; (知識などの)蓄え"
+          },
+          {
+            "type": "",
+            "meaning": "②株(式)"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "phrases",
+            "items": [
+              {
+                "type": "",
+                "label": "関連",
+                "content": "**in** [**out of**] **stock**",
+                "subSenses": [
+                  {
+                    "pos": "",
+                    "meanings": [
+                      "在庫があって [在庫切れで]"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pos": "動",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "(店に品物)を置く, を仕入れる"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "assume",
+    "pronunciation": [
+      {
+        "text": "[əs(j)úːm]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "思考に関する語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "She {{red:assumed}} that her boyfriend was late for their date because of car trouble.",
+        "ja": "恋人が車の事故でデートの時間に遅れているのだと彼女は{{red:思い込んだ}}。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0244",
+    "senses": [
+      {
+        "pos": "動",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①{assume that ... で} …だと想定する, …だと思い込む"
+          },
+          {
+            "type": "",
+            "meaning": "②(役割など)を引き受ける"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**assumption**",
+                "subSenses": [
+                  {
+                    "pos": "名",
+                    "meanings": [
+                      "①想定",
+                      "②就任"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "comprehend",
+    "pronunciation": [
+      {
+        "text": "[kɑ̀mprihénd]",
+        "notes": [
+          "アクセント注意"
+        ],
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "思考に関する語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "Math and language are {{red:comprehended}} in different parts of the brain.",
+        "ja": "数学と言語は脳の別々の部分で{{red:理解}}される。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0245",
+    "senses": [
+      {
+        "pos": "動",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①を理解する"
+          },
+          {
+            "type": "",
+            "meaning": "②を包む"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**comprehension**",
+                "subSenses": [
+                  {
+                    "pos": "名",
+                    "meanings": [
+                      "理解"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**comprehensive**",
+                "subSenses": [
+                  {
+                    "pos": "形",
+                    "meanings": [
+                      "広範囲の"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "grasp",
+    "pronunciation": [
+      {
+        "text": "[ɡræsp]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "思考に関する語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "She couldn't {{red:grasp}} the meaning of what her boss was saying.",
+        "ja": "彼女は上司の言っていることの意味が{{red:理解できなかった}}。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0246",
+    "senses": [
+      {
+        "pos": "動",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①を理解 [把握] する"
+          },
+          {
+            "type": "",
+            "meaning": "②をしっかり握る"
+          }
+        ]
+      },
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①理解, 把握"
+          },
+          {
+            "type": "",
+            "meaning": "②つかむこと"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "phrases",
+            "items": [
+              {
+                "type": "",
+                "label": "関連",
+                "content": "**beyond one's grasp**",
+                "subSenses": [
+                  {
+                    "pos": "",
+                    "meanings": [
+                      "〜の理解を超えて"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "conscience",
+    "pronunciation": [
+      {
+        "text": "[kɑ́nʃəns]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "思考に関する語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "After she stole the magazine from the store, her {{red:conscience}} bothered her.",
+        "ja": "店から雑誌を盗んだ後，{{red:良心}}が彼女を苦しめた。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0247",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "良心"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**conscientious**",
+                "subSenses": [
+                  {
+                    "pos": "形",
+                    "meanings": [
+                      "良心的な"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "clue",
+    "pronunciation": [
+      {
+        "text": "[kluː]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "思考に関する語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "The detective searched thoroughly for a {{red:clue}} to solve the mystery.",
+        "ja": "探偵はその謎を解く{{red:手がかり}}をくまなく探した。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0248",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "(問題などを解く) 手がかり, 糸口"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "mental",
+    "pronunciation": [
+      {
+        "text": "[méntl]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "思考に関する語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "It is wrong to assume that {{red:mental}} labor is superior to physical labor.",
+        "ja": "{{red:知的}}労働は肉体労働より上だと思うのは間違っている。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0249",
+    "senses": [
+      {
+        "pos": "形",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "精神の; 知能の"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**mentality**",
+                "subSenses": [
+                  {
+                    "pos": "名",
+                    "meanings": [
+                      "精神性; 知力"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "consumer",
+    "pronunciation": [
+      {
+        "text": "[kənsjúːmər]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "経済・広告論のキーワード②"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "{{red:Consumer}} spending in Japan has been falling because of a long depression.",
+        "ja": "日本の{{red:消費者}}支出は，長引く不況のために落ち込んできている。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0250",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "消費者"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**consume**",
+                "subSenses": [
+                  {
+                    "pos": "動",
+                    "meanings": [
+                      "を消費する; を食べ [飲み] つくす"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**consumption**",
+                "subSenses": [
+                  {
+                    "pos": "名",
+                    "meanings": [
+                      "消費"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "commerce",
+    "pronunciation": [
+      {
+        "text": "[kɑ́mərs]",
+        "notes": [
+          "アクセント注意"
+        ],
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "経済・広告論のキーワード②"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "Some corporations have dominated a large part of Japanese {{red:commerce}} and industry.",
+        "ja": "企業の中には，日本の{{red:商業}}と産業の大部分を支配してきた企業もある。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0251",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "商業, 貿易; 通商"
+          },
+          {
+            "type": "",
+            "meaning": "宣伝; 広告放送"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**commercial**",
+                "subSenses": [
+                  {
+                    "pos": "形",
+                    "meanings": [
+                      "商業の"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "commodity",
+    "pronunciation": [
+      {
+        "text": "[kəmɑ́dəti]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "経済・広告論のキーワード②"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "Animé has become one of the most important export {{red:commodities}} for Japan.",
+        "ja": "アニメは今や日本の最も重要な輸出{{red:商品}}のひとつになっている。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0252",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "<通常(複)で> ①商品"
+          },
+          {
+            "type": "",
+            "meaning": "②日用品, 必需品"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "expense",
+    "pronunciation": [
+      {
+        "text": "[ikspéns]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "経済・広告論のキーワード②"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "His job is to calculate all the company's income and {{red:expenses}} each week.",
+        "ja": "彼の仕事は毎週の会社の収入と{{red:支出}}を算出することだ。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0253",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "支出, 出費, 費用; 経費"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**expensive**",
+                "subSenses": [
+                  {
+                    "pos": "形",
+                    "meanings": [
+                      "高価な"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**expenditure**",
+                "subSenses": [
+                  {
+                    "pos": "名",
+                    "meanings": [
+                      "支出"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "phrases",
+            "items": [
+              {
+                "type": "",
+                "label": "関連",
+                "content": "**at the expense of ...**",
+                "subSenses": [
+                  {
+                    "pos": "",
+                    "meanings": [
+                      "…を犠牲にして"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "prosperity",
+    "pronunciation": [
+      {
+        "text": "[prɑspérəti]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "経済・広告論のキーワード②"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "The {{red:prosperity}} of Japan depends on its relationships with its Asian neighbors.",
+        "ja": "日本の{{red:繁栄}}はアジア近隣諸国との関係にかかっている。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0254",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "繁栄; (金銭的) 成功"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**prosper**",
+                "subSenses": [
+                  {
+                    "pos": "動",
+                    "meanings": [
+                      "繁栄する"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**prosperous**",
+                "subSenses": [
+                  {
+                    "pos": "形",
+                    "meanings": [
+                      "繁栄している"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "domestic",
+    "pronunciation": [
+      {
+        "text": "[dəméstik]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "経済・広告論のキーワード②"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "The country has international support in their fight against {{red:domestic}} terrorism.",
+        "ja": "その国は国内のテロとの戦いへの国際的な支援を得ている。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0255",
+    "senses": [
+      {
+        "pos": "形",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①国内の"
+          },
+          {
+            "type": "",
+            "meaning": "②家庭の"
+          },
+          {
+            "type": "",
+            "meaning": "③(動物が)人に慣れた"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**domesticate**",
+                "subSenses": [
+                  {
+                    "pos": "動",
+                    "meanings": [
+                      "(動物)を飼い慣らす"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "financial",
+    "pronunciation": [
+      {
+        "text": "[fənǽnʃ(ə)l / fainǽnʃ(ə)l]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "経済・広告論のキーワード②"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "The rapid fall in tax revenues will necessarily lead to {{red:financial}} difficulties.",
+        "ja": "急激な税収の落ち込みで{{red:財政}}上の困難は必至だろう。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0256",
+    "senses": [
+      {
+        "pos": "形",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "財政上の; 経済的な, 金銭的な"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**finance**",
+                "subSenses": [
+                  {
+                    "pos": "名",
+                    "meanings": [
+                      "①財政",
+                      "②((複)で) 財源"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "embarrass",
+    "pronunciation": [
+      {
+        "text": "[imbǽrəs]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "強い感情を表す語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "It {{red:embarrasses}} my father to see people kiss in public.",
+        "ja": "人前でキスしているのを見ると，私の父は{{red:当惑する}}。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0257",
+    "senses": [
+      {
+        "pos": "動",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "に恥ずかしい思いをさせる, を当惑させる"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**embarrassment**",
+                "subSenses": [
+                  {
+                    "pos": "名",
+                    "meanings": [
+                      "決まり悪さ, 当惑"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "fascinate",
+    "pronunciation": [
+      {
+        "text": "[fǽsənèit]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "強い感情を表す語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "The subject of the origin of life has long {{red:fascinated}} scientists.",
+        "ja": "生命の起源というテーマは長らく科学者たちを{{red:魅了してきた}}。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0258",
+    "senses": [
+      {
+        "pos": "動",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "を魅惑 [魅了] する"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**fascination**",
+                "subSenses": [
+                  {
+                    "pos": "名",
+                    "meanings": [
+                      "魅惑"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "phrases",
+            "items": [
+              {
+                "type": "",
+                "label": "関連",
+                "content": "**be fascinated by** [**with**] ...",
+                "subSenses": [
+                  {
+                    "pos": "",
+                    "meanings": [
+                      "…に夢中になる"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "resolve",
+    "pronunciation": [
+      {
+        "text": "[rizɑ́lv]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "強い感情を表す語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "How can we encourage nations to {{red:resolve}} conflicts without violence?",
+        "ja": "暴力なしで争いを解決するよう各国に促すにはどうすればよいか?"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0259",
+    "senses": [
+      {
+        "pos": "動",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①を決心する"
+          },
+          {
+            "type": "",
+            "meaning": "②を解決する"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**resolution**",
+                "subSenses": [
+                  {
+                    "pos": "名",
+                    "meanings": [
+                      "決心; 決議"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "phrases",
+            "items": [
+              {
+                "type": "",
+                "label": "関連",
+                "content": "**be resolved to do**",
+                "subSenses": [
+                  {
+                    "pos": "",
+                    "meanings": [
+                      "〜する決心をしている"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "hostile",
+    "pronunciation": [
+      {
+        "text": "[hɑ́stl / hɑ́stail]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "強い感情を表す語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "Many conservatives are {{red:hostile to}} the idea of big government.",
+        "ja": "保守主義者の多くは，大きな政府という考えに{{red:反感をもっている}}。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0260",
+    "senses": [
+      {
+        "pos": "形",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "敵意のある"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**hostility**",
+                "subSenses": [
+                  {
+                    "pos": "名",
+                    "meanings": [
+                      "敵意"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "phrases",
+            "items": [
+              {
+                "type": "",
+                "label": "関連",
+                "content": "**be hostile to ...**",
+                "subSenses": [
+                  {
+                    "pos": "",
+                    "meanings": [
+                      "…に反感をもっている"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "temper",
+    "pronunciation": [
+      {
+        "text": "[témpər]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "強い感情を表す語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "The trouble is that she is {{red:in a bad temper}} today.",
+        "ja": "困ったことに，彼女は今日は{{red:機嫌が悪い}}。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0261",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①機嫌, 気分; 気性"
+          },
+          {
+            "type": "",
+            "meaning": "②かっとなること"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "phrases",
+            "items": [
+              {
+                "type": "",
+                "label": "関連",
+                "content": "**lose one's temper**",
+                "subSenses": [
+                  {
+                    "pos": "",
+                    "meanings": [
+                      "腹を立てる"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "",
+                "label": "関連",
+                "content": "**keep one's temper**",
+                "subSenses": [
+                  {
+                    "pos": "",
+                    "meanings": [
+                      "怒りを抑える"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "impulse",
+    "pronunciation": [
+      {
+        "text": "[ímpʌls]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "強い感情を表す語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "Making purchases {{red:on impulse}}, she has got herself into debt.",
+        "ja": "衝動買いをして，彼女は借金を抱えてしまった。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0262",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "(心の) 衝動"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**impulsive**",
+                "subSenses": [
+                  {
+                    "pos": "形",
+                    "meanings": [
+                      "衝動的な"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "region",
+    "pronunciation": [
+      {
+        "text": "[ríːdʒən]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "地理に関するキーワード"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "The desert {{red:regions}} can be made fertile by irrigation.",
+        "ja": "その砂漠{{red:地域}}は灌漑によって肥よくにすることができる。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0263",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①地域, 地方"
+          },
+          {
+            "type": "",
+            "meaning": "②分野"
+          },
+          {
+            "type": "",
+            "meaning": "③(体の)部分"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**regional**",
+                "subSenses": [
+                  {
+                    "pos": "形",
+                    "meanings": [
+                      "地方の, 地域の"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "territory",
+    "pronunciation": [
+      {
+        "text": "[térətɔ̀ːri]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "地理に関するキーワード"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "The {{red:territory}} of Japan is about the same size as that of California.",
+        "ja": "日本の{{red:領土}}はカリフォルニアとほぼ同じ大きさである。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0264",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①領土; (広い) 地域"
+          },
+          {
+            "type": "",
+            "meaning": "②なわばり"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "range",
+    "pronunciation": [
+      {
+        "text": "[réindʒ]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "地理に関するキーワード"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "My grandfather has a wide {{red:range}} of interests and he loves surfing the Web.",
+        "ja": "私の祖父は{{red:広範囲}}のことに興味があって, ネットサーフィンが大好きだ。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0265",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①範囲"
+          },
+          {
+            "type": "",
+            "meaning": "②山脈"
+          },
+          {
+            "type": "",
+            "meaning": "③列"
+          }
+        ]
+      },
+      {
+        "pos": "動",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①を並べる"
+          },
+          {
+            "type": "",
+            "meaning": "②(に)わたる"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "phrases",
+            "items": [
+              {
+                "type": "",
+                "label": "関連",
+                "content": "**range from ... to ~**",
+                "subSenses": [
+                  {
+                    "pos": "",
+                    "meanings": [
+                      "(範囲が) …から〜にわたる"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "landscape",
+    "pronunciation": [
+      {
+        "text": "[lǽndskèip]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "地理に関するキーワード"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "We stood on a hill and looked over the rolling {{red:landscape}} of the plain.",
+        "ja": "私たちは丘の上に立ち, ゆるやかに起伏する大草原の{{red:風景}}を見渡した。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0266",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "景色, 風景, 眺め"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "urban",
+    "pronunciation": [
+      {
+        "text": "[ə́ːrbən]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "地理に関するキーワード"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "Driving in {{red:urban}} areas requires lots of concentration.",
+        "ja": "{{red:都市部}}の運転にはかなりの集中力が必要だ。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0267",
+    "senses": [
+      {
+        "pos": "形",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "都市の"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**urbanization**",
+                "subSenses": [
+                  {
+                    "pos": "名",
+                    "meanings": [
+                      "都市化"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "phrases",
+            "items": [
+              {
+                "type": "",
+                "label": "関連",
+                "content": "**suburban**",
+                "subSenses": [
+                  {
+                    "pos": "形",
+                    "meanings": [
+                      "郊外の"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "rural",
+    "pronunciation": [
+      {
+        "text": "[rúər(ə)l]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "地理に関するキーワード"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "Young people today tend to prefer living in an urban environment to a {{red:rural}} one.",
+        "ja": "近ごろの若者は田舎より都会の環境で{{red:暮らすのを}}好む傾向にある。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0268",
+    "senses": [
+      {
+        "pos": "形",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "田舎の, 田園の"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "関連",
+                "content": "**rustic**",
+                "subSenses": [
+                  {
+                    "pos": "形",
+                    "meanings": [
+                      "田舎風の"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "biology",
+    "pronunciation": [
+      {
+        "text": "[baiɑ́lədʒi]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "生命工学・医学に関する語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "The center of interest for biologists is currently in molecular {{red:biology}}.",
+        "ja": "生物学者にとって興味の中心は最近では{{red:分子生物学}}だ。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0269",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "生物学"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**biologist**",
+                "subSenses": [
+                  {
+                    "pos": "名",
+                    "meanings": [
+                      "生物学者"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**biological**",
+                "subSenses": [
+                  {
+                    "pos": "形",
+                    "meanings": [
+                      "生物学の"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**biotechnology**",
+                "subSenses": [
+                  {
+                    "pos": "名",
+                    "meanings": [
+                      "生物工学"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "cell",
+    "pronunciation": [
+      {
+        "text": "[sel]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "生命工学・医学に関する語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "HIV invades one {{red:cell}} after another and reproduces itself.",
+        "ja": "HIVウイルスは{{red:細胞}}を次々に冒し, 増殖する。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0270",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①細胞"
+          },
+          {
+            "type": "",
+            "meaning": "②独房; 小部屋"
+          },
+          {
+            "type": "",
+            "meaning": "③電池"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "instinct",
+    "pronunciation": [
+      {
+        "text": "[ínstiŋkt]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "生命工学・医学に関する語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "When frightening events occur, our first {{red:instinct}} is to protect our children.",
+        "ja": "恐ろしいことが起こったら, 私たちはいままず{{red:本能的に}}子どもを守る。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0271",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①本能"
+          },
+          {
+            "type": "",
+            "meaning": "②素質"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**instinctive**",
+                "subSenses": [
+                  {
+                    "pos": "形",
+                    "meanings": [
+                      "本能的な"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "phrases",
+            "items": [
+              {
+                "type": "",
+                "label": "関連",
+                "content": "**by** [**from**] **instinct**",
+                "subSenses": [
+                  {
+                    "pos": "",
+                    "meanings": [
+                      "本能的に"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "gene",
+    "pronunciation": [
+      {
+        "text": "[dʒíːn]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "生命工学・医学に関する語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "{{red:Genes}} determine a person's skin and eye color.",
+        "ja": "{{red:遺伝子}}は人の肌や瞳の色を決定する。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0272",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "遺伝子"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**genetic**",
+                "subSenses": [
+                  {
+                    "pos": "形",
+                    "meanings": [
+                      "遺伝(子)の"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**genetics**",
+                "subSenses": [
+                  {
+                    "pos": "名",
+                    "meanings": [
+                      "遺伝学"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "nerve",
+    "pronunciation": [
+      {
+        "text": "[nə́ːrv]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "生命工学・医学に関する語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "The operation caused damage to the {{red:nerve}} cells in the brain.",
+        "ja": "手術で脳の{{red:神経}}細胞が損傷した。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0273",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①神経"
+          },
+          {
+            "type": "",
+            "meaning": "②度胸, ずうずうしさ"
+          },
+          {
+            "type": "",
+            "meaning": "③神経過敏"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**nervous**",
+                "subSenses": [
+                  {
+                    "pos": "形",
+                    "meanings": [
+                      "神経質な; 神経の"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "phrases",
+            "items": [
+              {
+                "type": "",
+                "label": "関連",
+                "content": "**get on one's nerves**",
+                "subSenses": [
+                  {
+                    "pos": "",
+                    "meanings": [
+                      "〜の神経にさわる"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "",
+                "label": "関連",
+                "content": "**have the nerve to do**",
+                "subSenses": [
+                  {
+                    "pos": "",
+                    "meanings": [
+                      "あつかましく〜する"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "remedy",
+    "pronunciation": [
+      {
+        "text": "[rémədi]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "生命工学・医学に関する語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "The best {{red:remedy}} for fatigue is sleep.",
+        "ja": "疲労の最善の{{red:治療法}}は睡眠である。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0274",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①治療(法)",
+            "subsections": [
+              {
+                "type": "related",
+                "items": [
+                  {
+                    "type": "",
+                    "label": "同意",
+                    "content": "**cure**"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "",
+            "meaning": "②矯正法, 救済策"
+          }
+        ]
+      },
+      {
+        "pos": "動",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "を治療する"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "syndrome",
+    "pronunciation": [
+      {
+        "text": "[síndroum]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "生命工学・医学に関する語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "The patient had all the classic symptoms of Acquired Immune Deficiency {{red:Syndrome}}.",
+        "ja": "その患者は, 後天性免疫不全{{red:症候群}} (エイズ) のあらゆる典型的な症状を示していた。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0275",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "症候群"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "perceive",
+    "pronunciation": [
+      {
+        "text": "[pərsíːv]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "五感の働き・認識・心理に関する語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "Many animals can {{red:perceive}} sights, sounds and smells that humans cannot.",
+        "ja": "多くの動物は人間が感じることができない光や音や匂いを{{red:知覚する}}ことができる。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0276",
+    "senses": [
+      {
+        "pos": "動",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "を(五感で)知覚する, に気づく; とわかる"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**perception**",
+                "subSenses": [
+                  {
+                    "pos": "名",
+                    "meanings": [
+                      "知覚; 認識"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**perceptible**",
+                "subSenses": [
+                  {
+                    "pos": "形",
+                    "meanings": [
+                      "知覚できる"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "glance",
+    "pronunciation": [
+      {
+        "text": "[ɡlǽns]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "五感の働き・認識・心理に関する語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "At the graduation ceremony, my ex-boyfriend wouldn't even {{red:glance at}} me.",
+        "ja": "卒業式で，前の彼氏は私を{{red:ちらりと見る}}こともしなかった。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0277",
+    "senses": [
+      {
+        "pos": "動",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "{**glance** (**at** ...) で} (…)をちらりと見る"
+          }
+        ]
+      },
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "一べつ, 目くばせ"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "visible",
+    "pronunciation": [
+      {
+        "text": "[vízəbl]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "五感の働き・認識・心理に関する語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "That star is not {{red:visible}} to the naked eye.",
+        "ja": "その星は裸眼では{{red:目に見えない}}。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0278",
+    "senses": [
+      {
+        "pos": "形",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "目に見える, 肉眼で見える",
+            "subsections": [
+              {
+                "type": "related",
+                "items": [
+                  {
+                    "type": "",
+                    "label": "反意",
+                    "content": "**invisible**"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**vision**",
+                "subSenses": [
+                  {
+                    "pos": "名",
+                    "meanings": [
+                      "視力; 先見性; 洞察力; 空想"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "fancy",
+    "pronunciation": [
+      {
+        "text": "[fǽnsi]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "五感の働き・認識・心理に関する語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "I had a {{red:fancy}} that I would be a novelist when I grew up.",
+        "ja": "私は大人になったら小説家になるんだという{{red:空想}}を抱いていた。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0279",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①空想, 想像; 思いつき"
+          },
+          {
+            "type": "",
+            "meaning": "②好み"
+          }
+        ]
+      },
+      {
+        "pos": "動",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①を想像する"
+          },
+          {
+            "type": "",
+            "meaning": "②を好む"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "phrases",
+            "items": [
+              {
+                "type": "",
+                "label": "関連",
+                "content": "**take a fancy to ...**",
+                "subSenses": [
+                  {
+                    "pos": "",
+                    "meanings": [
+                      "…を好きになる"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pos": "形",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "手の込んだ"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "psychology",
+    "pronunciation": [
+      {
+        "text": "[saikɑ́lədʒi]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "五感の働き・認識・心理に関する語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "She is a {{red:psychology}} major at Yale University and is graduating this spring.",
+        "ja": "彼女はエール大学で{{red:心理学}}を専攻している学生で，この春卒業します。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0280",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "心理学; 心理"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "関連",
+                "content": "**psychologist**",
+                "subSenses": [
+                  {
+                    "pos": "名",
+                    "meanings": [
+                      "心理学者"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "witness",
+    "pronunciation": [
+      {
+        "text": "[wítnəs]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "五感の働き・認識・心理に関する語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "The father tried to prove his son's innocence by finding a {{red:witness}}.",
+        "ja": "父親は目撃者を探して息子の無実を証明しようとした。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0281",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①目撃者, 証人"
+          },
+          {
+            "type": "",
+            "meaning": "②証拠; 証言"
+          }
+        ]
+      },
+      {
+        "pos": "動",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①を目撃する"
+          },
+          {
+            "type": "",
+            "meaning": "②を証言する"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "appetite",
+    "pronunciation": [
+      {
+        "text": "[ǽpətàit]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "家庭／日常生活に関する語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "I have a poor {{red:appetite}} and don't want to eat dinner.",
+        "ja": "{{red:食欲}}がなくて夕食をとる気にならない。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0282",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①食欲"
+          },
+          {
+            "type": "",
+            "meaning": "②欲求; 欲望"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**appetizer**",
+                "subSenses": [
+                  {
+                    "pos": "名",
+                    "meanings": [
+                      "食前酒; 前菜"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "pastime",
+    "pronunciation": [
+      {
+        "text": "[pǽstàim]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "家庭／日常生活に関する語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "Surfing the Web is a favorite {{red:pastime}} of mine.",
+        "ja": "ネットサーフィンは私の大好きな{{red:気晴らし}}だ。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0283",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "気晴らし, 娯楽, 趣味"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "mischief",
+    "pronunciation": [
+      {
+        "text": "[místʃif]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "家庭／日常生活に関する語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "Try not to get into any {{red:mischief}} while I'm gone.",
+        "ja": "私がいない間に{{red:いたずら}}をしてはいけないよ。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0284",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①いたずら"
+          },
+          {
+            "type": "",
+            "meaning": "②害, 損害"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**mischievous**",
+                "subSenses": [
+                  {
+                    "pos": "形",
+                    "meanings": [
+                      "①いたずら好きな",
+                      "②有害な"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "routine",
+    "pronunciation": [
+      {
+        "text": "[ruːtíːn]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "家庭／日常生活に関する語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "My daily {{red:routine}} is to check the mailboxes every morning.",
+        "ja": "私の{{red:日課}}は毎朝メールボックスをチェックすることだ。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0285",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "決まりきった仕事, 日課; いつもの手順"
+          }
+        ]
+      },
+      {
+        "pos": "形",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "決まりきった, いつもの"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "incident",
+    "pronunciation": [
+      {
+        "text": "[ínsədənt]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "家庭／日常生活に関する語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "The number of reported {{red:incidents}} of child abuse increases every year.",
+        "ja": "児童虐待事件が報告される件数は毎年増加している。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0286",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①(付随的な)出来事"
+          },
+          {
+            "type": "",
+            "meaning": "②(紛争などの)事件"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**incidental**",
+                "subSenses": [
+                  {
+                    "pos": "形",
+                    "meanings": [
+                      "付随して起こる; 偶然の"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**incidentally**",
+                "subSenses": [
+                  {
+                    "pos": "副",
+                    "meanings": [
+                      "ついでだが; 偶然に"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "stuff",
+    "pronunciation": [
+      {
+        "text": "[stʌf]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "家庭／日常生活に関する語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "The clerk {{red:stuffed}} the customer's groceries into paper bags.",
+        "ja": "店員は客の食料品を紙袋に{{red:詰め込んだ}}。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0287",
+    "senses": [
+      {
+        "pos": "動",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "を詰め込む"
+          }
+        ]
+      },
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "材料, 物質; (漠然と)もの"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "intellect",
+    "pronunciation": [
+      {
+        "text": "[íntəlèkt]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "能力に関する語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "We should fight terrorism with reason and {{red:intellect}} instead of emotions.",
+        "ja": "テロリズムに対しては感情ではなく理性と{{red:知性}}をもって戦うべきだ。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0288",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①知性; 知力"
+          },
+          {
+            "type": "",
+            "meaning": "②(the intellect(s) で) 知識人"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**intellectual**",
+                "subSenses": [
+                  {
+                    "pos": "形",
+                    "meanings": [
+                      "知的な"
+                    ]
+                  },
+                  {
+                    "pos": "名",
+                    "meanings": [
+                      "知識人"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "intelligent",
+    "pronunciation": [
+      {
+        "text": "[intélidʒənt]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "能力に関する語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "He is {{red:intelligent}} but his work lacks intellectual discipline.",
+        "ja": "彼は頭はよいが，仕事ぶりには知的訓練が欠けている。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0289",
+    "senses": [
+      {
+        "pos": "形",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "頭のよい, 知能の高い; 知的な"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**intelligence**",
+                "subSenses": [
+                  {
+                    "pos": "名",
+                    "meanings": [
+                      "①知能",
+                      "②情報(機関)"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "qualify",
+    "pronunciation": [
+      {
+        "text": "[kwɑ́ləfài]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "能力に関する語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "He is eighteen years old and {{red:qualified}} to take the examination for a driver's license.",
+        "ja": "彼は18歳なので，運転免許試験を受ける{{red:資格がある}}。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0290",
+    "senses": [
+      {
+        "pos": "動",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "に資格を与える; 資格がある"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**qualification**",
+                "subSenses": [
+                  {
+                    "pos": "名",
+                    "meanings": [
+                      "資格; 適性"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "phrases",
+            "items": [
+              {
+                "type": "",
+                "label": "関連",
+                "content": "**be qualified to do**",
+                "subSenses": [
+                  {
+                    "pos": "",
+                    "meanings": [
+                      "〜する資格がある"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "faculty",
+    "pronunciation": [
+      {
+        "text": "[fǽkəlti]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "能力に関する語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "He has a {{red:faculty}} for making friends easily.",
+        "ja": "彼はすぐに人と仲よくなれる{{red:能力}}をもっている。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0291",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①(ある分野の)能力",
+            "subsections": [
+              {
+                "type": "related",
+                "items": [
+                  {
+                    "type": "",
+                    "label": "類義",
+                    "content": "**ability**"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "",
+            "meaning": "②(大学の)学部; 教授陣"
+          },
+          {
+            "type": "",
+            "meaning": "③(器官などの)機能"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "genius",
+    "pronunciation": [
+      {
+        "text": "[dʒíːnjəs]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "能力に関する語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "He is a {{red:genius}} in mathematics, but poor in human relations.",
+        "ja": "彼は数学に関しては{{red:天才}}だが，人間関係に関してはお粗末な人だ。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0292",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "天才; (生まれつきの)才能, 天分",
+            "subsections": [
+              {
+                "type": "related",
+                "items": [
+                  {
+                    "type": "",
+                    "label": "同意",
+                    "content": "**gift**"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "mature",
+    "pronunciation": [
+      {
+        "text": "[mətʃúər / mətjúər]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "能力に関する語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "He grew a beard to look {{red:mature}}.",
+        "ja": "彼は大人に見えるようにひげをはやした。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0293",
+    "senses": [
+      {
+        "pos": "形",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "成熟した, 大人の",
+            "subsections": [
+              {
+                "type": "related",
+                "items": [
+                  {
+                    "type": "",
+                    "label": "反意",
+                    "content": "**immature**",
+                    "subSenses": [
+                      {
+                        "pos": "",
+                        "meanings": [
+                          "未熟な"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**maturity**",
+                "subSenses": [
+                  {
+                    "pos": "名",
+                    "meanings": [
+                      "成熟; 円熟"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "efficient",
+    "pronunciation": [
+      {
+        "text": "[ifíʃənt]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "能力に関する語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "Learning words by reading them in context is effective but not {{red:efficient}}.",
+        "ja": "言葉を文脈の中で読み込んで覚えるのは，効果的だが{{red:能率的}}ではない。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0294",
+    "senses": [
+      {
+        "pos": "形",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①能率的な, 効率のよい",
+            "subsections": [
+              {
+                "type": "related",
+                "items": [
+                  {
+                    "type": "",
+                    "label": "反意",
+                    "content": "**inefficient**"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "",
+            "meaning": "②有能な"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**efficiency**",
+                "subSenses": [
+                  {
+                    "pos": "名",
+                    "meanings": [
+                      "能率; 効率"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "stir",
+    "pronunciation": [
+      {
+        "text": "[stə́ːr]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "手や身体に関する語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "If you don't {{red:stir}} the stew, it will stick to the bottom of the pot.",
+        "ja": "シチューを{{red:かき混ぜ}}ないと鍋の底にくっついてしまうよ。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0295",
+    "senses": [
+      {
+        "pos": "動",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①をかき混ぜる"
+          },
+          {
+            "type": "",
+            "meaning": "②(物・感情)を動かす"
+          }
+        ]
+      },
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "(軽い)動き"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "tear",
+    "pronunciation": [
+      {
+        "text": "[tέər]",
+        "notes": [
+          "発音注意"
+        ],
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "手や身体に関する語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "The sumo wrestler can {{red:tear}} a telephone book in half with his bare hands.",
+        "ja": "その力士は素手で電話帳を2つに{{red:引き裂く}}ことができる。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0296",
+    "senses": [
+      {
+        "pos": "動",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "を引き裂く, を破る; 裂ける"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "usage",
+            "items": [
+              {
+                "type": "",
+                "label": "活用",
+                "content": "**tore** - **torn**"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "裂け目"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "notes",
+            "items": [
+              {
+                "type": "注意",
+                "label": "補足",
+                "content": "**tear** [tiər] 「(通例(複)で)涙」と混同しないように。"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "physical",
+    "pronunciation": [
+      {
+        "text": "[fízik(ə)l]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "手や身体に関する語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "Moderate daily exercise can improve mental and {{red:physical}} health.",
+        "ja": "毎日の適度な運動で心と{{red:体}}の健康を増進することができる。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0297",
+    "senses": [
+      {
+        "pos": "形",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①体の",
+            "subsections": [
+              {
+                "type": "related",
+                "items": [
+                  {
+                    "type": "",
+                    "label": "反意",
+                    "content": "**mental**"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "",
+            "meaning": "物質の"
+          },
+          {
+            "type": "",
+            "meaning": "②物理(学)の"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**physics**",
+                "subSenses": [
+                  {
+                    "pos": "名",
+                    "meanings": [
+                      "物理学"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**physician**",
+                "subSenses": [
+                  {
+                    "pos": "名",
+                    "meanings": [
+                      "医者; 内科医"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**physicist**",
+                "subSenses": [
+                  {
+                    "pos": "名",
+                    "meanings": [
+                      "物理学者"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "naked",
+    "pronunciation": [
+      {
+        "text": "[néikid]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "手や身体に関する語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "Venus is visible to the {{red:naked}} eye.",
+        "ja": "金星は{{red:裸}}眼で見える。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0298",
+    "senses": [
+      {
+        "pos": "形",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①裸の, むき出しの"
+          },
+          {
+            "type": "",
+            "meaning": "②赤裸々な"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "notes",
+            "items": [
+              {
+                "type": "",
+                "label": "慣用",
+                "content": "the **naked** eye",
+                "subSenses": [
+                  {
+                    "pos": "",
+                    "meanings": [
+                      "裸眼"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "fatigue",
+    "pronunciation": [
+      {
+        "text": "[fətíːɡ]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "手や身体に関する語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "Sleep provides recovery from mental {{red:fatigue}}.",
+        "ja": "睡眠によって精神的な{{red:疲労}}を回復できる。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0299",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "(心身の)疲労"
+          }
+        ]
+      },
+      {
+        "pos": "動",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "を疲れさせる"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "exhaustion",
+    "pronunciation": [
+      {
+        "text": "[iɡzɔ́ːstʃən]",
+        "pos": ""
+      }
+    ],
+    "tags": [
+      "手や身体に関する語"
+    ],
+    "level": "Level 1",
+    "examples": [
+      {
+        "en": "He fell asleep standing up, from sheer {{red:exhaustion}}.",
+        "ja": "彼はほんとうに極度の{{red:疲労}}から，立ったまま眠り込んだ。"
+      }
+    ],
+    "dataSource": "DB55",
+    "subID": "0300",
+    "senses": [
+      {
+        "pos": "名",
+        "definitions": [
+          {
+            "type": "",
+            "meaning": "①極度の疲労"
+          },
+          {
+            "type": "",
+            "meaning": "②消耗; 枯渇"
+          }
+        ],
+        "subsections": [
+          {
+            "type": "related",
+            "items": [
+              {
+                "type": "",
+                "label": "派生",
+                "content": "**exhaust**",
+                "subSenses": [
+                  {
+                    "pos": "動",
+                    "meanings": [
+                      "を疲れ果てさせる; を使い果たす"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
